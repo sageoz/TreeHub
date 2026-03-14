@@ -1,0 +1,4744 @@
+{
+  "meta": {
+    "platform": "supabase",
+    "version": "v4",
+    "source_file": "swift.txt",
+    "indexed_at": "2026-03-10T18:06:52.265742+00:00",
+    "tree_hash": "sha256:18384c96e7eee273948e531a40028259cd7dc19f43df8aebc2fe31d2e4720b2a",
+    "pages_count": 379,
+    "indexer_version": "3.0.0"
+  },
+  "tree": {
+    "root": {
+      "id": "root",
+      "title": "Supabase Documentation",
+      "summary": "Documentation index for supabase",
+      "content_hash": "",
+      "children": [
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:04309ab4e11cb8a716e75009",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-initialize-client",
+                  "title": "Initialize Client",
+                  "summary": "Documentation about Initialize Client",
+                  "content_hash": "sha256:cebe6a6c74a0cf889276acb5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-initialize-client-with-custom-options",
+                  "title": "Initialize Client with custom options",
+                  "summary": "Documentation about Initialize Client with custom options",
+                  "content_hash": "sha256:bff2027dd0784a0c337f2802",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-initialize-client-with-logging",
+                  "title": "Initialize Client with Logging",
+                  "summary": "Documentation about Initialize Client with Logging",
+                  "content_hash": "sha256:77d863b83e9e2a60204e4c76",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-with-custom-schemas",
+                  "title": "With custom schemas",
+                  "summary": "Documentation about With custom schemas",
+                  "content_hash": "sha256:7b9c447c25f662b8d99e6c08",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:5c19ba974656519d816adf3f",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-getting-your-data",
+                  "title": "Getting your data",
+                  "summary": "Documentation about Getting your data",
+                  "content_hash": "sha256:e3ad5946e403e7a972f138a5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-selecting-specific-columns",
+                  "title": "Selecting specific columns",
+                  "summary": "Documentation about Selecting specific columns",
+                  "content_hash": "sha256:fcb03da07c011a004053a64b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-query-foreign-tables",
+                  "title": "Query foreign tables",
+                  "summary": "Documentation about Query foreign tables",
+                  "content_hash": "sha256:dcce348082a0387d32d22048",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-query-foreign-tables-through-a-join-table",
+                  "title": "Query foreign tables through a join table",
+                  "summary": "Documentation about Query foreign tables through a join table",
+                  "content_hash": "sha256:3d2058480f036214a1309ab6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-query-the-same-foreign-table-multiple-times",
+                  "title": "Query the same foreign table multiple times",
+                  "summary": "Documentation about Query the same foreign table multiple times",
+                  "content_hash": "sha256:f8427f1b3fc22de7598ca72c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-filtering-through-foreign-tables",
+                  "title": "Filtering through foreign tables",
+                  "summary": "Documentation about Filtering through foreign tables",
+                  "content_hash": "sha256:31ce47d4955cd0ca80f11ef2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-querying-foreign-table-with-count",
+                  "title": "Querying foreign table with count",
+                  "summary": "Documentation about Querying foreign table with count",
+                  "content_hash": "sha256:17ec9d3d4694881608e62adf",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-querying-with-count-option",
+                  "title": "Querying with count option",
+                  "summary": "Documentation about Querying with count option",
+                  "content_hash": "sha256:ff02c599133bc5122061f799",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-querying-json-data",
+                  "title": "Querying JSON data",
+                  "summary": "Documentation about Querying JSON data",
+                  "content_hash": "sha256:78b747a7f1ede937c785330d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-querying-foreign-table-with-inner-join",
+                  "title": "Querying foreign table with inner join",
+                  "summary": "Documentation about Querying foreign table with inner join",
+                  "content_hash": "sha256:ca4b1e40a26b43bbde75c910",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-switching-schemas-per-query",
+                  "title": "Switching schemas per query",
+                  "summary": "Documentation about Switching schemas per query",
+                  "content_hash": "sha256:3f8e2b3c06a6c969cddc1a73",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:df6d7cfd53c99f23151540c1",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-a-record",
+                  "title": "Create a record",
+                  "summary": "Documentation about Create a record",
+                  "content_hash": "sha256:36abc9dbd6de81e87d945aaa",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-create-a-record-and-return-it",
+                  "title": "Create a record and return it",
+                  "summary": "Documentation about Create a record and return it",
+                  "content_hash": "sha256:2e6a7b3dd6240443f57a4c2d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-bulk-create",
+                  "title": "Bulk create",
+                  "summary": "Documentation about Bulk create",
+                  "content_hash": "sha256:1cff1084d5237882c50aa7d8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:11759a8b4bc5d0aec6523c18",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-updating-your-data",
+                  "title": "Updating your data",
+                  "summary": "Documentation about Updating your data",
+                  "content_hash": "sha256:d009b9c34d82f50e4c724593",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-update-a-record-and-return-it",
+                  "title": "Update a record and return it",
+                  "summary": "Documentation about Update a record and return it",
+                  "content_hash": "sha256:b4c8130aea142f513f9c38fd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-updating-json-data",
+                  "title": "Updating JSON data",
+                  "summary": "Documentation about Updating JSON data",
+                  "content_hash": "sha256:46ad868a9b7f820604e76b8c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:50811499bd971f1e468938e4",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-upsert-your-data",
+                  "title": "Upsert your data",
+                  "summary": "Documentation about Upsert your data",
+                  "content_hash": "sha256:35ef37f57b07a611dfaf7f77",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-bulk-upsert-your-data",
+                  "title": "Bulk Upsert your data",
+                  "summary": "Documentation about Bulk Upsert your data",
+                  "content_hash": "sha256:a2b11b039e172fd3dbb24ff3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-upserting-into-tables-with-constraints",
+                  "title": "Upserting into tables with constraints",
+                  "summary": "Documentation about Upserting into tables with constraints",
+                  "content_hash": "sha256:909659cf2183cc45d0229e32",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:0884f731a31357a3c4570cf7",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-delete-records",
+                  "title": "Delete records",
+                  "summary": "Documentation about Delete records",
+                  "content_hash": "sha256:4f463283fa183332860de5f3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Postgres functions: rpc()",
+          "content_hash": "sha256:7eb247068c6b19f1e24bfac5",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-call-a-postgres-function-without-arguments",
+                  "title": "Call a Postgres function without arguments",
+                  "summary": "Documentation about Call a Postgres function without arguments",
+                  "content_hash": "sha256:7143591dc550ddc239594697",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-call-a-postgres-function-with-arguments",
+                  "title": "Call a Postgres function with arguments",
+                  "summary": "Documentation about Call a Postgres function with arguments",
+                  "content_hash": "sha256:c53fa68c4795e138786dfa17",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-bulk-processing",
+                  "title": "Bulk processing",
+                  "summary": "Documentation about Bulk processing",
+                  "content_hash": "sha256:6121086486e4fe3c99f4eb74",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-call-a-postgres-function-with-filters",
+                  "title": "Call a Postgres function with filters",
+                  "summary": "Documentation about Call a Postgres function with filters",
+                  "content_hash": "sha256:8b944f22c0255f2788b4ae5e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:4029646e1c18bbfeb0447630",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-applying-filters",
+                  "title": "Applying Filters",
+                  "summary": "Documentation about Applying Filters",
+                  "content_hash": "sha256:012d0d0e1ca0c4579e06c7ce",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-chaining",
+                  "title": "Chaining",
+                  "summary": "Documentation about Chaining",
+                  "content_hash": "sha256:799df791bc80760ab713a7d1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-conditional-chaining",
+                  "title": "Conditional Chaining",
+                  "summary": "Documentation about Conditional Chaining",
+                  "content_hash": "sha256:d5809a502d26db5eb09281ae",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-filter-by-values-within-a-json-column",
+                  "title": "Filter by values within a JSON column",
+                  "summary": "Documentation about Filter by values within a JSON column",
+                  "content_hash": "sha256:c5221158f047feaef8fc2699",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-filter-foreign-tables",
+                  "title": "Filter Foreign Tables",
+                  "summary": "Documentation about Filter Foreign Tables",
+                  "content_hash": "sha256:6f48431558d8ef5959e527c2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:6367584ef04f1592c29cd371",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:5d37baec313d2c5357cf5f72",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:7cc9ee193e1f82b49fad69d5",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:0891a8001b9a179c60d00679",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:f45bad61b6cf3e42d0f1ee15",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:adaccfec8a06529c31c41a4c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:8d92b2289e05c6631da0b939",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:f6c0b5d436c8e9718ae52a8e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:fe5af2ca30833bbad1ef6e99",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:ba116752b9df96f19bcd3f8f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:b7257429a9061a665c2e2365",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:a601ae62f749d751565a0917",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:f903d4ecb7ae8bc04bd3f042",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:5a83c643cd7422630be8746f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:3f129aa55c20ad2e836959df",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:7e2df4aafac0b42c57572cc6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:63b8200fb89f391ecbd1779b",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:416840ba971038a47d5978fe",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:60bdb7b41738161e9a6e8e26",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:c78c9393cc2f7fe2755b2689",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:6e687bc54f00b33fa7f6bd3b",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:278fd2e55f6b680dcbf8d9ef",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:893a10ad302793a256491133",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:e6bf3fcf798ecfac6e5746ad",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:6dd4c8901a48a1ee4f59387f",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:8b0c6967db5944443683d1d7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:00617c7130e4f953804cdeb9",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:b3da9be64ece464416b7d7c9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:1edf483067e8f339216e4fcc",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:934266f6b182589cfc02e84c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-use-or-with-and",
+                  "title": "Use `or` with `and`",
+                  "summary": "Documentation about Use `or` with `and`",
+                  "content_hash": "sha256:1c743519bd7c738113920600",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:5599b17a6973604d498b16b2",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:ac0c1f23a673feaa4e9bfe21",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-on-a-foreign-table",
+                  "title": "On a foreign table",
+                  "summary": "Documentation about On a foreign table",
+                  "content_hash": "sha256:40509829770ac3523cbb7882",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:42ab0e5b26f28e32ee4ed76f",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:43fdce4b3ec9aae3e6289aba",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-upsert",
+                  "title": "With `upsert()`",
+                  "summary": "Documentation about With `upsert()`",
+                  "content_hash": "sha256:f986ca66fb6a326081eec25c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:61c7b5868762f296e3a20607",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:ce4475b865cb45ad878b002a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-on-a-foreign-table",
+                  "title": "On a foreign table",
+                  "summary": "Documentation about On a foreign table",
+                  "content_hash": "sha256:09835a4e172c81aeb560237d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-order-parent-table-by-a-referenced-table",
+                  "title": "Order parent table by a referenced table",
+                  "summary": "Documentation about Order parent table by a referenced table",
+                  "content_hash": "sha256:c86d215d1ca096e1de669191",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:ce023a2647deb463173da4e2",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:7d9972a50759294505d523d3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-on-a-foreign-table",
+                  "title": "On a foreign table",
+                  "summary": "Documentation about On a foreign table",
+                  "content_hash": "sha256:b991d873b1957c025198d8df",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:b281ee07eb88f6d4a064fbca",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:525136f7f295a6dc23f1796b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:a2309e7b2eced1fdd4dc4ef2",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:5668e44f69460b57be9a15de",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:71e4e44b3dcfbfd52f465de9",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-return-data-as-csv",
+                  "title": "Return data as CSV",
+                  "summary": "Documentation about Return data as CSV",
+                  "content_hash": "sha256:7126296f6fb5ed34b47b1a54",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:da5ac72146b8af49aae7edc2",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-get-the-execution-plan",
+                  "title": "Get the execution plan",
+                  "summary": "Documentation about Get the execution plan",
+                  "content_hash": "sha256:03f615ed1b76f6659f1b605f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-get-the-execution-plan-with-analyze-and-verbose",
+                  "title": "Get the execution plan with analyze and verbose",
+                  "summary": "Documentation about Get the execution plan with analyze and verbose",
+                  "content_hash": "sha256:ea5e157d0287c6ce1f0b146f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-auth-client",
+                  "title": "Create auth client",
+                  "summary": "Documentation about Create auth client",
+                  "content_hash": "sha256:fb1164f3f12340bea2e8a262",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-create-auth-client-with-custom-storage",
+                  "title": "Create auth client with custom storage",
+                  "summary": "Documentation about Create auth client with custom storage",
+                  "content_hash": "sha256:9ade3e5af77761c55ca89774",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:9176a1ae447598fcd41dae53",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-sign-up-with-email-and-password",
+                  "title": "Sign up with email and password",
+                  "summary": "Documentation about Sign up with email and password",
+                  "content_hash": "sha256:d8c32592e13b78c51fbc1767",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-up-with-a-phone-number-and-password-sms",
+                  "title": "Sign up with a phone number and password (SMS)",
+                  "summary": "Documentation about Sign up with a phone number and password (SMS)",
+                  "content_hash": "sha256:eebafdb931fe77449bc45aa5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-up-with-a-phone-number-and-password-whatsapp",
+                  "title": "Sign up with a phone number and password (whatsapp)",
+                  "summary": "Documentation about Sign up with a phone number and password (whatsapp)",
+                  "content_hash": "sha256:035c736735ce33f0a0a0fb4f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-up-with-additional-user-metadata",
+                  "title": "Sign up with additional user metadata",
+                  "summary": "Documentation about Sign up with additional user metadata",
+                  "content_hash": "sha256:0aff90328c75d3ec065871c1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-up-with-a-redirect-url",
+                  "title": "Sign up with a redirect URL",
+                  "summary": "Documentation about Sign up with a redirect URL",
+                  "content_hash": "sha256:c4258b8c92e6f2b4450d1011",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:941f034a707da0658b064b65",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-listen-to-auth-changes",
+                  "title": "Listen to auth changes",
+                  "summary": "Documentation about Listen to auth changes",
+                  "content_hash": "sha256:79d6c5a3c1f4a966c8392416",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-a-specific-event",
+                  "title": "Listen to a specific event",
+                  "summary": "Documentation about Listen to a specific event",
+                  "content_hash": "sha256:11f2a6458dcdb608eb9377c8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:604b83c067236f3a137f2c16",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-an-anonymous-user",
+                  "title": "Create an anonymous user",
+                  "summary": "Documentation about Create an anonymous user",
+                  "content_hash": "sha256:7570a92ca30a2262330479e6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-create-an-anonymous-user-with-custom-user-metadata",
+                  "title": "Create an anonymous user with custom user metadata",
+                  "summary": "Documentation about Create an anonymous user with custom user metadata",
+                  "content_hash": "sha256:a5fa3baa20a2e781a6ec6285",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:73c924258d97ca6ecf468566",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-sign-in-with-email-and-password",
+                  "title": "Sign in with email and password",
+                  "summary": "Documentation about Sign in with email and password",
+                  "content_hash": "sha256:2fcdea52b83b39c09a037c89",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-in-with-phone-and-password",
+                  "title": "Sign in with phone and password",
+                  "summary": "Documentation about Sign in with phone and password",
+                  "content_hash": "sha256:fc5dcbb3a6066b48b7402531",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:e38cd23cea2aab8cedf7b578",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-sign-in-using-id-token",
+                  "title": "Sign In using ID Token",
+                  "summary": "Documentation about Sign In using ID Token",
+                  "content_hash": "sha256:01216bd7d0557eab11e0f77f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:85b28518cf1ce286162a5b48",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-sign-in-with-email",
+                  "title": "Sign in with email",
+                  "summary": "Documentation about Sign in with email",
+                  "content_hash": "sha256:83132b1349b7a7084e34b5fb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-in-with-sms-otp",
+                  "title": "Sign in with SMS OTP",
+                  "summary": "Documentation about Sign in with SMS OTP",
+                  "content_hash": "sha256:6733c2867a3855e47d07537c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-in-with-whatsapp-otp",
+                  "title": "Sign in with WhatsApp OTP",
+                  "summary": "Documentation about Sign in with WhatsApp OTP",
+                  "content_hash": "sha256:e45550b387511368c195c78e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:96f7762505e3d02f824769ac",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-sign-in-with-oauth-using-aswebauthenticationsession",
+                  "title": "Sign in with OAuth using ASWebAuthenticationSession",
+                  "summary": "Documentation about Sign in with OAuth using ASWebAuthenticationSession",
+                  "content_hash": "sha256:3ff00c627ba630b18b56a471",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-in-with-oauth-and-customize-flow",
+                  "title": "Sign in with OAuth and customize flow",
+                  "summary": "Documentation about Sign in with OAuth and customize flow",
+                  "content_hash": "sha256:01e9f43df2382c56bfce61d0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-in-using-a-third-party-provider",
+                  "title": "Sign in using a third-party provider",
+                  "summary": "Documentation about Sign in using a third-party provider",
+                  "content_hash": "sha256:e43c24c9e6ce226332f02a51",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-in-with-scopes",
+                  "title": "Sign in with scopes",
+                  "summary": "Documentation about Sign in with scopes",
+                  "content_hash": "sha256:ebf3df4712ac279a06ed8955",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:40d9c955d68f7474147b9b8a",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-sign-in-with-email-domain",
+                  "title": "Sign in with email domain",
+                  "summary": "Documentation about Sign in with email domain",
+                  "content_hash": "sha256:fe31319f2c5729cd21bd2a67",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-sign-in-with-provider-uuid",
+                  "title": "Sign in with provider UUID",
+                  "summary": "Documentation about Sign in with provider UUID",
+                  "content_hash": "sha256:28c56d48e1132cddd1525ab4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:c707657f2c3b87ab074e9949",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-verify-and-get-claims-from-current-session",
+                  "title": "Verify and get claims from current session",
+                  "summary": "Documentation about Verify and get claims from current session",
+                  "content_hash": "sha256:f2d95204be4d0981b4d11ba4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-verify-and-get-claims-from-a-specific-jwt",
+                  "title": "Verify and get claims from a specific JWT",
+                  "summary": "Documentation about Verify and get claims from a specific JWT",
+                  "content_hash": "sha256:0113c63fd2b156fc424d8a5f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-get-claims-from-an-expired-jwt",
+                  "title": "Get claims from an expired JWT",
+                  "summary": "Documentation about Get claims from an expired JWT",
+                  "content_hash": "sha256:97f2250c385b742bcd302f45",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-verify-jwt-with-custom-jwks",
+                  "title": "Verify JWT with custom JWKS",
+                  "summary": "Documentation about Verify JWT with custom JWKS",
+                  "content_hash": "sha256:1510d44dfd8fc5dbd78d8d2c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:791ffc9f024d70d21d322585",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-sign-out",
+                  "title": "Sign out",
+                  "summary": "Documentation about Sign out",
+                  "content_hash": "sha256:3a62e56537f78ec10c55a1de",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:86213438cba79ea46e8c6a7f",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-verify-sms-one-time-password-otp",
+                  "title": "Verify Sms One-Time Password (OTP)",
+                  "summary": "Documentation about Verify Sms One-Time Password (OTP)",
+                  "content_hash": "sha256:887b64d9dd0382a06efea2df",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-verify-signup-one-time-password-otp",
+                  "title": "Verify Signup One-Time Password (OTP)",
+                  "summary": "Documentation about Verify Signup One-Time Password (OTP)",
+                  "content_hash": "sha256:830d855931be773abcc473f1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:8c6389caa327b5b51d656294",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-get-the-session-data",
+                  "title": "Get the session data",
+                  "summary": "Documentation about Get the session data",
+                  "content_hash": "sha256:aa5d30a3d47426dc65c53090",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-get-the-current-session-without-validation",
+                  "title": "Get the current session without validation",
+                  "summary": "Documentation about Get the current session without validation",
+                  "content_hash": "sha256:2a80ba9da2792291eaf3bb04",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:676c243cd064fdda563d0334",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-refresh-session-using-the-current-session",
+                  "title": "Refresh session using the current session",
+                  "summary": "Documentation about Refresh session using the current session",
+                  "content_hash": "sha256:2cd0dbb70385729308512ac9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-refresh-session-using-a-refresh-token",
+                  "title": "Refresh session using a refresh token",
+                  "summary": "Documentation about Refresh session using a refresh token",
+                  "content_hash": "sha256:e8b17ff4f4567002a41f4e80",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:9ed5218f03db1f4aed0f9fbc",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-get-the-logged-in-user-with-the-current-existing-session",
+                  "title": "Get the logged in user with the current existing session",
+                  "summary": "Documentation about Get the logged in user with the current existing session",
+                  "content_hash": "sha256:157ebe5b1d824edf73d0e29b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-get-the-logged-in-user-with-a-custom-access-token-jwt",
+                  "title": "Get the logged in user with a custom access token jwt",
+                  "summary": "Documentation about Get the logged in user with a custom access token jwt",
+                  "content_hash": "sha256:4d6c5ed1b23dcca7832c4d1b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-get-current-user",
+                  "title": "Get current user",
+                  "summary": "Documentation about Get current user",
+                  "content_hash": "sha256:0ad9ac2eba8b9870628b21c2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:14c86624d25d1f19dbf33f39",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-update-the-email-for-an-authenticated-user",
+                  "title": "Update the email for an authenticated user",
+                  "summary": "Documentation about Update the email for an authenticated user",
+                  "content_hash": "sha256:2ae1018bab5a9c014d67eed1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-update-the-phone-number-for-an-authenticated-user",
+                  "title": "Update the phone number for an authenticated user",
+                  "summary": "Documentation about Update the phone number for an authenticated user",
+                  "content_hash": "sha256:721d48387ba0504304c6fc53",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-update-the-password-for-an-authenticated-user",
+                  "title": "Update the password for an authenticated user",
+                  "summary": "Documentation about Update the password for an authenticated user",
+                  "content_hash": "sha256:27117240fa7d983b5d28b487",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-update-the-users-metadata",
+                  "title": "Update the user's metadata",
+                  "summary": "Documentation about Update the user's metadata",
+                  "content_hash": "sha256:9a0293151eea12163f69d4ac",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-update-the-users-password-with-a-nonce",
+                  "title": "Update the user's password with a nonce",
+                  "summary": "Documentation about Update the user's password with a nonce",
+                  "content_hash": "sha256:29780bf7075ab2709a7862a6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:713db91ef4662ffd16f41f4b",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-returns-a-list-of-identities-linked-to-the-user",
+                  "title": "Returns a list of identities linked to the user",
+                  "summary": "Documentation about Returns a list of identities linked to the user",
+                  "content_hash": "sha256:4271db3e6fb673f7ab6336ba",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:e32b57b45010771e4223c509",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-link-an-identity-to-a-user",
+                  "title": "Link an identity to a user",
+                  "summary": "Documentation about Link an identity to a user",
+                  "content_hash": "sha256:4b7161e3dd5120f9a9c3d3e7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-link-an-identity-to-a-user-with-custom-url-opening-logic",
+                  "title": "Link an identity to a user with custom URL opening logic",
+                  "summary": "Documentation about Link an identity to a user with custom URL opening logic",
+                  "content_hash": "sha256:b93d52380827f835ec7de9d1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:0dd751ced8a0b60a27918371",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-unlink-an-identity",
+                  "title": "Unlink an identity",
+                  "summary": "Documentation about Unlink an identity",
+                  "content_hash": "sha256:e5316f6a1549c9e5545560e8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:ef263d3773379fd78fedd85a",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-send-reauthentication-nonce",
+                  "title": "Send reauthentication nonce",
+                  "summary": "Documentation about Send reauthentication nonce",
+                  "content_hash": "sha256:e08bef20460444885e6219de",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:465dcaf3a0e5c602c1d82eda",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-resend-an-email-signup-confirmation",
+                  "title": "Resend an email signup confirmation",
+                  "summary": "Documentation about Resend an email signup confirmation",
+                  "content_hash": "sha256:5787f33ee34ecd7b651234c6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-resend-a-phone-signup-confirmation",
+                  "title": "Resend a phone signup confirmation",
+                  "summary": "Documentation about Resend a phone signup confirmation",
+                  "content_hash": "sha256:5e6eede8c929876818621a17",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-resend-email-change-email",
+                  "title": "Resend email change email",
+                  "summary": "Documentation about Resend email change email",
+                  "content_hash": "sha256:2e507e2b89b7b8f45b0303f8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-resend-phone-change-otp",
+                  "title": "Resend phone change OTP",
+                  "summary": "Documentation about Resend phone change OTP",
+                  "content_hash": "sha256:c23c24b17bd141f0d75bef92",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:8a319d5a51d573857973caf0",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-refresh-the-session",
+                  "title": "Refresh the session",
+                  "summary": "Documentation about Refresh the session",
+                  "content_hash": "sha256:4673f30a6227bb11701c7b48",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:7f3ecccbf21daed1af6abd2d",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-exchange-auth-code",
+                  "title": "Exchange Auth Code",
+                  "summary": "Documentation about Exchange Auth Code",
+                  "content_hash": "sha256:b90902b084d88c6d4e299ade",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:b291c8349387ea8c7278385b",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-start-automatic-session-refresh",
+                  "title": "Start automatic session refresh",
+                  "summary": "Documentation about Start automatic session refresh",
+                  "content_hash": "sha256:daec3fafacd99913748a60a9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:b3cedba52bc66e64ea281a37",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-stop-automatic-session-refresh",
+                  "title": "Stop automatic session refresh",
+                  "summary": "Documentation about Stop automatic session refresh",
+                  "content_hash": "sha256:2493c0dfb105d71450d62309",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:73518092591bcc2730217f20",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-enroll-a-time-based-one-time-password-totp-factor",
+                  "title": "Enroll a time-based, one-time password (TOTP) factor",
+                  "summary": "Documentation about Enroll a time-based, one-time password (TOTP) factor",
+                  "content_hash": "sha256:fc5dedc4e55d56c10c79d704",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:9b8c87f0c91b2e209212ad38",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-a-challenge-for-a-factor",
+                  "title": "Create a challenge for a factor",
+                  "summary": "Documentation about Create a challenge for a factor",
+                  "content_hash": "sha256:2f1e780b9afbf1b11ebd5078",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:f2ff612118d4b30a3b52dd7e",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-verify-a-challenge-for-a-factor",
+                  "title": "Verify a challenge for a factor",
+                  "summary": "Documentation about Verify a challenge for a factor",
+                  "content_hash": "sha256:c7b185c7a35db62f95acc8fe",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:bf10075657ff2f098c3363e2",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-and-verify-a-challenge-for-a-factor",
+                  "title": "Create and verify a challenge for a factor",
+                  "summary": "Documentation about Create and verify a challenge for a factor",
+                  "content_hash": "sha256:74f013de6a1ff7d3ab6d775d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:9d9e6557e186709c254cab6a",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-unenroll-a-factor",
+                  "title": "Unenroll a factor",
+                  "summary": "Documentation about Unenroll a factor",
+                  "content_hash": "sha256:33366bd70ae5c22ab349a2ad",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "mfa.getAuthenticatorAssuranceLevel()",
+          "content_hash": "sha256:6cb2b638adbe6b6e4b8f69d1",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-get-the-aal-details-of-a-session",
+                  "title": "Get the AAL details of a session",
+                  "summary": "Documentation about Get the AAL details of a session",
+                  "content_hash": "sha256:e3fbaf54f05fb7c41fe0b671",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-server-side-auth-client",
+                  "title": "Create server-side auth client",
+                  "summary": "Documentation about Create server-side auth client",
+                  "content_hash": "sha256:dff124b800a48143bbfc8c29",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:411f2a9140b3f7f81c480f71",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-get-user-by-id",
+                  "title": "Get user by ID",
+                  "summary": "Documentation about Get user by ID",
+                  "content_hash": "sha256:5a90f2bb7c58b24b456c934f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:6351148a0115d8b662dfb108",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-list-users",
+                  "title": "List users",
+                  "summary": "Documentation about List users",
+                  "content_hash": "sha256:eed530406e603e0715430f0c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-list-users-with-pagination",
+                  "title": "List users with pagination",
+                  "summary": "Documentation about List users with pagination",
+                  "content_hash": "sha256:702e4de65b9102c599f61bfc",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:7b1c9d799b10cc6d6c90db34",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-user",
+                  "title": "Create user",
+                  "summary": "Documentation about Create user",
+                  "content_hash": "sha256:c58f9a0a9ea2e14339807231",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:95c207d04c0d3171d99c3f33",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-removes-a-user",
+                  "title": "Removes a user",
+                  "summary": "Documentation about Removes a user",
+                  "content_hash": "sha256:844ad62fc6ca123b63e8b514",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:94d23b6b83825a3df427cee6",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-invite-user-by-email",
+                  "title": "Invite user by email",
+                  "summary": "Documentation about Invite user by email",
+                  "content_hash": "sha256:f987a1d70c39fa231e7ff2ea",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:eb1c4bc323256614e8c364e3",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-update-user-by-id",
+                  "title": "Update user by ID",
+                  "summary": "Documentation about Update user by ID",
+                  "content_hash": "sha256:cbfaf518f5eee9d78ea55a01",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:ec8aabab684d1af498d38ae9",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-invocation-with-decodable-response",
+                  "title": "Invocation with `Decodable` response",
+                  "summary": "Documentation about Invocation with `Decodable` response",
+                  "content_hash": "sha256:adcb86cb4d85dccf9ff89309",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-invocation-with-custom-response",
+                  "title": "Invocation with custom response",
+                  "summary": "Documentation about Invocation with custom response",
+                  "content_hash": "sha256:7ba59e22c2b6a7f76235442f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-invocation-with-streamed-response",
+                  "title": "Invocation with streamed response",
+                  "summary": "Documentation about Invocation with streamed response",
+                  "content_hash": "sha256:fb9e39e076eb49e53eda7807",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-error-handling",
+                  "title": "Error handling",
+                  "summary": "Documentation about Error handling",
+                  "content_hash": "sha256:de6b5a1083d6527d2a2b12ec",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-passing-custom-headers",
+                  "title": "Passing custom headers",
+                  "summary": "Documentation about Passing custom headers",
+                  "content_hash": "sha256:77c3773fcfa52dec1acff311",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-invoking-a-function-in-the-useast1-region",
+                  "title": "Invoking a Function in the UsEast1 region",
+                  "summary": "Documentation about Invoking a Function in the UsEast1 region",
+                  "content_hash": "sha256:db39b010d4b50f1fe317903b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-calling-with-delete-http-verb",
+                  "title": "Calling with DELETE HTTP verb",
+                  "summary": "Documentation about Calling with DELETE HTTP verb",
+                  "content_hash": "sha256:e5d9dc93b9b07100f7640a52",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-calling-with-get-http-verb",
+                  "title": "Calling with GET HTTP verb",
+                  "summary": "Documentation about Calling with GET HTTP verb",
+                  "content_hash": "sha256:b8960bb6804db9859e2065cb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-pass-additional-query-params",
+                  "title": "Pass additional query params",
+                  "summary": "Documentation about Pass additional query params",
+                  "content_hash": "sha256:74093a33f28fb21a3d786277",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:ecd811fe2fa34e4e9985e9fa",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-listen-to-broadcast-messages",
+                  "title": "Listen to broadcast messages",
+                  "summary": "Documentation about Listen to broadcast messages",
+                  "content_hash": "sha256:19bc5b026e687284bd6a85cb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-broadcast-messages-using-callback",
+                  "title": "Listen to broadcast messages using callback",
+                  "summary": "Documentation about Listen to broadcast messages using callback",
+                  "content_hash": "sha256:efbbb826fdbe27cc33fe3e96",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-configure-broadcast-with-replay",
+                  "title": "Configure broadcast with replay",
+                  "summary": "Documentation about Configure broadcast with replay",
+                  "content_hash": "sha256:a7f7f55fe8fad347cbd7b7ca",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-presence-updates",
+                  "title": "Listen to presence updates",
+                  "summary": "Documentation about Listen to presence updates",
+                  "content_hash": "sha256:99dc1e62a3ba441e8d56a44c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-presence-updates-using-callback",
+                  "title": "Listen to presence updates using callback",
+                  "summary": "Documentation about Listen to presence updates using callback",
+                  "content_hash": "sha256:190993acd611e2d2952ff208",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-all-database-changes",
+                  "title": "Listen to all database changes",
+                  "summary": "Documentation about Listen to all database changes",
+                  "content_hash": "sha256:3034989adba8dc028a2dd66d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-all-database-changes-using-callback",
+                  "title": "Listen to all database changes using callback",
+                  "summary": "Documentation about Listen to all database changes using callback",
+                  "content_hash": "sha256:2cf113205cc4ed8be71f7b61",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-a-specific-table",
+                  "title": "Listen to a specific table",
+                  "summary": "Documentation about Listen to a specific table",
+                  "content_hash": "sha256:67e9d18d31fb3a5946695105",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-a-specific-table-using-callback",
+                  "title": "Listen to a specific table using callback",
+                  "summary": "Documentation about Listen to a specific table using callback",
+                  "content_hash": "sha256:0b344e06cb8d7f6e61389a4d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-inserts",
+                  "title": "Listen to inserts",
+                  "summary": "Documentation about Listen to inserts",
+                  "content_hash": "sha256:382ef9e4f6519b5eeb77de0b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-inserts-using-callback",
+                  "title": "Listen to inserts using callback",
+                  "summary": "Documentation about Listen to inserts using callback",
+                  "content_hash": "sha256:9fc781bdee748a40895524a4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-updates",
+                  "title": "Listen to updates",
+                  "summary": "Documentation about Listen to updates",
+                  "content_hash": "sha256:7e5bce63b708f2b64a1004a0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-updates-using-callback",
+                  "title": "Listen to updates using callback",
+                  "summary": "Documentation about Listen to updates using callback",
+                  "content_hash": "sha256:83c349e01be01245ebc5adc7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-deletes",
+                  "title": "Listen to deletes",
+                  "summary": "Documentation about Listen to deletes",
+                  "content_hash": "sha256:57cc1011d2b55e39d337758b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-deletes-using-callback",
+                  "title": "Listen to deletes using callback",
+                  "summary": "Documentation about Listen to deletes using callback",
+                  "content_hash": "sha256:f418375cc6f5680516a6a8ff",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-row-level-changes",
+                  "title": "Listen to row level changes",
+                  "summary": "Documentation about Listen to row level changes",
+                  "content_hash": "sha256:d3443f47b709ab6a63e9d8db",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-listen-to-row-level-changes-using-callback",
+                  "title": "Listen to row level changes using callback",
+                  "summary": "Documentation about Listen to row level changes using callback",
+                  "content_hash": "sha256:45dd27cca6cb4cea395704ec",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:bbb121529dae13a2a1e9d338",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-remove-a-channel",
+                  "title": "Remove a channel",
+                  "summary": "Documentation about Remove a channel",
+                  "content_hash": "sha256:a78b228deedc5cad94018df3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-unsubscribe-from-a-channel",
+                  "title": "Unsubscribe from a channel",
+                  "summary": "Documentation about Unsubscribe from a channel",
+                  "content_hash": "sha256:7c31561796832a7cb013ac3c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:e9d152c714aa7ae23d82dd3c",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-remove-all-channels",
+                  "title": "Remove all channels",
+                  "summary": "Documentation about Remove all channels",
+                  "content_hash": "sha256:d4837f7ba94300004de780ef",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:c280fd0a54b23abc0908db0f",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-get-all-channels",
+                  "title": "Get all channels",
+                  "summary": "Documentation about Get all channels",
+                  "content_hash": "sha256:eb855736b6d384b2a15e5128",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:814743f59077c5e7108a29a6",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-list-buckets",
+                  "title": "List buckets",
+                  "summary": "Documentation about List buckets",
+                  "content_hash": "sha256:dee61754fc1cf1a3003dd627",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:74d12e8c7fb259b62c6f74ec",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-get-bucket",
+                  "title": "Get bucket",
+                  "summary": "Documentation about Get bucket",
+                  "content_hash": "sha256:7986be5fa9de10eab20ee716",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:458fe6c08b846933b8f44bc1",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-bucket",
+                  "title": "Create bucket",
+                  "summary": "Documentation about Create bucket",
+                  "content_hash": "sha256:aa75afb240c94f5108ac1231",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:d70bdcb01d090cd1b68d2326",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-empty-bucket",
+                  "title": "Empty bucket",
+                  "summary": "Documentation about Empty bucket",
+                  "content_hash": "sha256:51b19d424ece112195d89063",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:62c942db32a31dfdc3e6d90e",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-update-bucket",
+                  "title": "Update bucket",
+                  "summary": "Documentation about Update bucket",
+                  "content_hash": "sha256:550c8d383b776de47b2b8c19",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:9558acd7e59efb5887f219c0",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-delete-bucket",
+                  "title": "Delete bucket",
+                  "summary": "Documentation about Delete bucket",
+                  "content_hash": "sha256:d0d76a64f03a2e010fd7b44b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:f1240b7dcc7fe8b585923f78",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-upload-file",
+                  "title": "Upload file",
+                  "summary": "Documentation about Upload file",
+                  "content_hash": "sha256:babbf76f7f179c1b8f1f6153",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:1f6467c262f130d19263dfe0",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-update-file",
+                  "title": "Update file",
+                  "summary": "Documentation about Update file",
+                  "content_hash": "sha256:e348d42ee56d9bd750e32fb9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:12178165b50e8468d093aa54",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-move-file",
+                  "title": "Move file",
+                  "summary": "Documentation about Move file",
+                  "content_hash": "sha256:98703cfef0e36dceca41eec2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:718eea499ad121d729ee76a2",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-copy-file",
+                  "title": "Copy file",
+                  "summary": "Documentation about Copy file",
+                  "content_hash": "sha256:256205d33f78ec830d574ae6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:0541d9d1fa5e507e451a6b4b",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-signed-url",
+                  "title": "Create Signed URL",
+                  "summary": "Documentation about Create Signed URL",
+                  "content_hash": "sha256:3d1995474483212e8af46e70",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-create-a-signed-url-for-an-asset-with-transformations",
+                  "title": "Create a signed URL for an asset with transformations",
+                  "summary": "Documentation about Create a signed URL for an asset with transformations",
+                  "content_hash": "sha256:a423d4381fa81fdd744ba847",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-create-a-signed-url-which-triggers-the-download-of-the-asset",
+                  "title": "Create a signed URL which triggers the download of the asset",
+                  "summary": "Documentation about Create a signed URL which triggers the download of the asset",
+                  "content_hash": "sha256:ca504923375e21c9c736af4f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:3bfb3288d04ff16bcfb7baa3",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-signed-urls",
+                  "title": "Create Signed URLs",
+                  "summary": "Documentation about Create Signed URLs",
+                  "content_hash": "sha256:a64cbf234c8d949964743967",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "from.createSignedUploadURL()",
+          "content_hash": "sha256:f83a31cf7570db3390104b88",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-create-signed-upload-url",
+                  "title": "Create signed upload URL",
+                  "summary": "Documentation about Create signed upload URL",
+                  "content_hash": "sha256:0b4cc326464806cf756b0f1d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-create-signed-upload-url-with-options",
+                  "title": "Create signed upload URL with options",
+                  "summary": "Documentation about Create signed upload URL with options",
+                  "content_hash": "sha256:8b041bc64ccc6640621db2e4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:15cf1b7b626c3991e852bb37",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-upload-to-signed-url",
+                  "title": "Upload to signed URL",
+                  "summary": "Documentation about Upload to signed URL",
+                  "content_hash": "sha256:e76df92b77fd1acf20d945d4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-upload-file-from-url-to-signed-url",
+                  "title": "Upload file from URL to signed URL",
+                  "summary": "Documentation about Upload file from URL to signed URL",
+                  "content_hash": "sha256:b072b5ee9f87e27dbe1c1a6c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:76a3a33e1e274d5d8401a171",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-returns-the-url-for-an-asset-in-a-public-bucket",
+                  "title": "Returns the URL for an asset in a public bucket",
+                  "summary": "Documentation about Returns the URL for an asset in a public bucket",
+                  "content_hash": "sha256:16ae952ab9eaf3db15861ce8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-returns-the-url-for-an-asset-in-a-public-bucket-with-transformations",
+                  "title": "Returns the URL for an asset in a public bucket with transformations",
+                  "summary": "Documentation about Returns the URL for an asset in a public bucket with transformations",
+                  "content_hash": "sha256:970a3117bd218de28427e499",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-returns-the-url-which-triggers-the-download-of-an-asset-in-a-public-bucket",
+                  "title": "Returns the URL which triggers the download of an asset in a public bucket",
+                  "summary": "Documentation about Returns the URL which triggers the download of an asset in a public bucket",
+                  "content_hash": "sha256:12ae7a49be1aa0075619bd2d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:90d3ad2c5c9b3e121a2d6354",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-download-file",
+                  "title": "Download file",
+                  "summary": "Documentation about Download file",
+                  "content_hash": "sha256:2496bbe98b081c41dff16e7e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-download-file-with-transformations",
+                  "title": "Download file with transformations",
+                  "summary": "Documentation about Download file with transformations",
+                  "content_hash": "sha256:e13d82bd7e3d744d5cd87f8c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:b13bcc5dd4884edf21aaa1c1",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-delete-file",
+                  "title": "Delete file",
+                  "summary": "Documentation about Delete file",
+                  "content_hash": "sha256:783c5782484f7a68502105b6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "swift.txt-swift-reference",
+          "title": "Swift Reference",
+          "summary": "Documentation about Swift Reference",
+          "content_hash": "sha256:349f89560bfa93747c73c004",
+          "children": [
+            {
+              "id": "swift.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "swift.txt-list-files-in-a-bucket",
+                  "title": "List files in a bucket",
+                  "summary": "Documentation about List files in a bucket",
+                  "content_hash": "sha256:e5567a02f792b816ded5e162",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "swift.txt-search-files-in-a-bucket",
+                  "title": "Search files in a bucket",
+                  "summary": "Documentation about Search files in a bucket",
+                  "content_hash": "sha256:c3f7ea1867be9245586e8dc8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "swift.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "swift.txt-swift-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        }
+      ]
+    }
+  }
+}

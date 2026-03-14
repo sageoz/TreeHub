@@ -1,0 +1,4939 @@
+{
+  "meta": {
+    "platform": "supabase",
+    "version": "v4",
+    "source_file": "kotlin.txt",
+    "indexed_at": "2026-03-10T18:06:52.250567+00:00",
+    "tree_hash": "sha256:75b1c6d3827ae3cdd89f5e458ef1339317d1954f12568a424b852c42d78191fd",
+    "pages_count": 396,
+    "indexer_version": "3.0.0"
+  },
+  "tree": {
+    "root": {
+      "id": "root",
+      "title": "Supabase Documentation",
+      "summary": "Documentation index for supabase",
+      "content_hash": "",
+      "children": [
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:2abae3baffd7f951431031d4",
+          "children": [
+            {
+              "id": "kotlin.txt-create-supabase-client",
+              "title": "Create Supabase Client",
+              "summary": "Independently of which Supabase module you are using, you will need to initialize the main client first and install the module.",
+              "content_hash": "sha256:8a57d217c2bba5379ab2e59e",
+              "children": [],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "kotlin.txt-oauth-and-otp-link-verification",
+              "title": "OAuth and OTP link verification",
+              "summary": "[supabase-kt](https://github.com/supabase-community/supabase-kt) provides several platform implementations for OAuth and OTP link verification. \\",
+              "content_hash": "sha256:d014d322d01f2f8f22fe9941",
+              "children": [],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "kotlin.txt-configure-deeplink-callbacks-for-authentication",
+              "title": "Configure deeplink callbacks for Authentication",
+              "summary": "Deeplinks are supported on Android, IOS and macOS.",
+              "content_hash": "sha256:a9f02713b76a7bd004165e7e",
+              "children": [],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "kotlin.txt-pkce-authentication-flow",
+              "title": "PKCE Authentication flow",
+              "summary": "supabase-kt supports the [PKCE authentication flow](https://supabase.com/blog/supabase-auth-sso-pkce).",
+              "content_hash": "sha256:fece4348e715196fb4740bc6",
+              "children": [],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-initialize-client",
+                  "title": "Initialize Client",
+                  "summary": "Documentation about Initialize Client",
+                  "content_hash": "sha256:0de5dd54fb77ed756dc1d12a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-configure-gotrue-module",
+                  "title": "Configure GoTrue module",
+                  "summary": "Documentation about Configure GoTrue module",
+                  "content_hash": "sha256:ec87b9234ed3511ecaea1648",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-configure-postgrest-module",
+                  "title": "Configure PostgREST module",
+                  "summary": "Documentation about Configure PostgREST module",
+                  "content_hash": "sha256:6631b691d89b33cc501c1026",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-configure-storage-module",
+                  "title": "Configure Storage module",
+                  "summary": "Documentation about Configure Storage module",
+                  "content_hash": "sha256:b955d893b6f6bf51ca60a3e1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-configure-realtime-module",
+                  "title": "Configure Realtime module",
+                  "summary": "Documentation about Configure Realtime module",
+                  "content_hash": "sha256:a7938234a5c6f2accec4cef4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-configure-functions-plugin",
+                  "title": "Configure Functions plugin",
+                  "summary": "Documentation about Configure Functions plugin",
+                  "content_hash": "sha256:4d0e55554be03e1bf653e8f5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-configure-graphql-plugin",
+                  "title": "Configure GraphQL plugin",
+                  "summary": "Documentation about Configure GraphQL plugin",
+                  "content_hash": "sha256:19964e935262c5b99b96752b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:5c19ba974656519d816adf3f",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-getting-your-data",
+                  "title": "Getting your data",
+                  "summary": "Documentation about Getting your data",
+                  "content_hash": "sha256:244de7ce297afb93caaed2d8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-selecting-specific-columns",
+                  "title": "Selecting specific columns",
+                  "summary": "Documentation about Selecting specific columns",
+                  "content_hash": "sha256:1e1ac6992f7dc66a3ad1c989",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-query-foreign-tables",
+                  "title": "Query foreign tables",
+                  "summary": "Documentation about Query foreign tables",
+                  "content_hash": "sha256:3039e068d97c43f79853beff",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-query-the-same-foreign-table-multiple-times",
+                  "title": "Query the same foreign table multiple times",
+                  "summary": "Documentation about Query the same foreign table multiple times",
+                  "content_hash": "sha256:dd27ee0017033af1be50316f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-querying-with-count-option",
+                  "title": "Querying with count option",
+                  "summary": "Documentation about Querying with count option",
+                  "content_hash": "sha256:78fe920785a67844d1f9ef96",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-querying-json-data",
+                  "title": "Querying JSON data",
+                  "summary": "Documentation about Querying JSON data",
+                  "content_hash": "sha256:a496fa58cf128db1cb70c144",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:df6d7cfd53c99f23151540c1",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-a-record",
+                  "title": "Create a record",
+                  "summary": "Documentation about Create a record",
+                  "content_hash": "sha256:17f8540fd23844f3528813ef",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-bulk-create",
+                  "title": "Bulk create",
+                  "summary": "Documentation about Bulk create",
+                  "content_hash": "sha256:59af750017a42a039e5f3df1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-fetch-inserted-record",
+                  "title": "Fetch inserted record",
+                  "summary": "Documentation about Fetch inserted record",
+                  "content_hash": "sha256:4ea1f92ad8923564da8bd768",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:11759a8b4bc5d0aec6523c18",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-updating-your-data",
+                  "title": "Updating your data",
+                  "summary": "Documentation about Updating your data",
+                  "content_hash": "sha256:1d4efd1214c4ce72188e759d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-update-a-record-and-return-it",
+                  "title": "Update a record and return it",
+                  "summary": "Documentation about Update a record and return it",
+                  "content_hash": "sha256:301cdce8e9780274aa335e66",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-updating-json-data",
+                  "title": "Updating JSON data",
+                  "summary": "Documentation about Updating JSON data",
+                  "content_hash": "sha256:e6a6ddb2edf4684b0b2142a2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:50811499bd971f1e468938e4",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-upsert-your-data",
+                  "title": "Upsert your data",
+                  "summary": "Documentation about Upsert your data",
+                  "content_hash": "sha256:51fc7ead0e117319c479d067",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-upserting-into-tables-with-constraints",
+                  "title": "Upserting into tables with constraints",
+                  "summary": "Documentation about Upserting into tables with constraints",
+                  "content_hash": "sha256:971c4eb014ae8db4d0821e6f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-return-the-exact-number-of-rows",
+                  "title": "Return the exact number of rows",
+                  "summary": "Documentation about Return the exact number of rows",
+                  "content_hash": "sha256:b25227efac27a5801be19969",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:0884f731a31357a3c4570cf7",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-delete-records",
+                  "title": "Delete records",
+                  "summary": "Documentation about Delete records",
+                  "content_hash": "sha256:4e51cd3b984ed546d3de74be",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-fetch-deleted-records",
+                  "title": "Fetch deleted records",
+                  "summary": "Documentation about Fetch deleted records",
+                  "content_hash": "sha256:d0a5f8d48b4d360f120f7d90",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:da414b60c106bda80217c48d",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-call-a-stored-procedure",
+                  "title": "Call a stored procedure",
+                  "summary": "Documentation about Call a stored procedure",
+                  "content_hash": "sha256:7746d19038e166d9cc3e4a6c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-parameters",
+                  "title": "With Parameters",
+                  "summary": "Documentation about With Parameters",
+                  "content_hash": "sha256:d126a1b43ad0299a95b548f2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:fed18fb0315f02caab3d3abe",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-applying-a-filter-block",
+                  "title": "Applying a filter block",
+                  "summary": "Documentation about Applying a filter block",
+                  "content_hash": "sha256:8a95c7df998346e8f7a92b8f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-multiple-filters-on-one-column",
+                  "title": "Multiple filters on one column",
+                  "summary": "Documentation about Multiple filters on one column",
+                  "content_hash": "sha256:74724fba975d85b6fdf3e776",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-filter-by-values-within-a-json-column",
+                  "title": "Filter by values within a JSON column",
+                  "summary": "Documentation about Filter by values within a JSON column",
+                  "content_hash": "sha256:8366c5a46aa4af3ac946cf51",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-filter-foreign-tables",
+                  "title": "Filter Foreign Tables",
+                  "summary": "Documentation about Filter Foreign Tables",
+                  "content_hash": "sha256:57748860553bd28ae178c32e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:5a7c12868b9d8f38ac5db8fe",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:8a95c7df998346e8f7a92b8f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:1b1ff79250d2684edc60497c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:7168e7c6fb84dad54126c555",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:a7862c4ec540645feeb14a07",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:95c0a491c21cff61eb1548f8",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:d82bd66bb21c46002fd19e00",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:4d9aeb4be50611ceb92c19b8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:8d847619b694f04fdf7d6f54",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:f0a6ef8592a42aa0a41ea2bf",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:422d6e5d5bd443207d3ca670",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:96cb42789a84a0e90820446e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:ad2f817ba4aaae20d8b894d6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:29c0aa2601ed5cfe2537d3aa",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:c11ef562163975d841a6541a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:ec8b64bd6fa9ee773df69179",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:9862630d4c400e863c2a6df0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:d9644c793debc4bfae69fa8d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:5062797899651ca26fdc182a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:85d02623025a689eea6a08ee",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:23d11853199a89f784a9fbf7",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:72fdc204a5354d92892379ee",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:706de0ffb4498c207dee490c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:55c20a842908cdfa6e0c9bb4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:aa0da25cef867be239cc7977",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:120eb24d21b1a7185374e31f",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:575d5fa26d04b330216c6e40",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:979ee613d4cf626d508e03bd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:e1218fc17ab5a6a690b1b202",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:932c5283e2f058d498b1f225",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:e4e7171dee0fa1033d7435e8",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:971591cd391c79b673adcd52",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:560e41e25c85213c1be52525",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:e5ed868685ad7c1de6baa7da",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:eb85f4d3cd671fed076fca9f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:61a24d38fd17f8d3c5ae5f21",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:0012849f517f931a08c8ce6c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:42d0aaac5bd15dd40e551f7e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:50f6818089abb18a363f73ec",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:286d68e6294614389902f4d9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d5dc66d4f110dbe53ad4fdb4",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:5cd62ecc3a393383798013ba",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:b7a6330be1be29f13c17af8f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:1ba766725b3a33edea395125",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:a80f6f1155e0cc9d990022bd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:917d47563bd477628c2e6d67",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:08dd5966bf311c8210827ac5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:5c4d1823f7746b9f95fbb4a2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:04dc9db6b4aa03a996411f8e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:5bd09285421b1fe101a0eba2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:31debdcd8f35db1f10bb3f99",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:1a3699dd2371080890df7862",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-update",
+                  "title": "With `update()`",
+                  "summary": "Documentation about With `update()`",
+                  "content_hash": "sha256:4d7c3a1a6d2a56c1f0c61bf8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-delete",
+                  "title": "With `delete()`",
+                  "summary": "Documentation about With `delete()`",
+                  "content_hash": "sha256:0d6b06e90f629f5b56c97843",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-with-rpc",
+                  "title": "With `rpc()`",
+                  "summary": "Documentation about With `rpc()`",
+                  "content_hash": "sha256:9c83dfc30147bb76999c4cec",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:83508abe224ea1c1604bda07",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:bbaf3a55efca9407224665f8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:6157793ddcf3dd028b930272",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:15e0fa0fd5f18d7651ed96e0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:19bc997763fc8510183b3a6e",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:c9220a09df1c946dbf6473ee",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:c488badb043965b4e4a4a86c",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:c1f110e00a1c1b36a66e97c3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:5cafe9bbf291e3b557793846",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:74bc973d689390f4232e5e90",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d640f01411ef817e9a9d5cea",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-on-array-columns",
+                  "title": "On array columns",
+                  "summary": "Documentation about On array columns",
+                  "content_hash": "sha256:687c959413229d8c86708621",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-on-range-columns",
+                  "title": "On range columns",
+                  "summary": "Documentation about On range columns",
+                  "content_hash": "sha256:687c959413229d8c86708621",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d0cba85cce051c737e01b2f7",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-text-search",
+                  "title": "Text search",
+                  "summary": "Documentation about Text search",
+                  "content_hash": "sha256:01d551ba8423ee951dd4fc73",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-basic-normalization",
+                  "title": "Basic normalization",
+                  "summary": "Documentation about Basic normalization",
+                  "content_hash": "sha256:b8bdef5a144a25d7fba8374b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-full-normalization",
+                  "title": "Full normalization",
+                  "summary": "Documentation about Full normalization",
+                  "content_hash": "sha256:6001a3ef55d79660a80c3007",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-websearch",
+                  "title": "Websearch",
+                  "summary": "Documentation about Websearch",
+                  "content_hash": "sha256:ae8425590b8c09377071b0d1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:5b002047540fdc1791508c8c",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:76ae814c3cfc0601d66fab49",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:f13d46dbf46d0f92fee738a6",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:3265522aaf6c059c1ea42395",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-use-or-with-and",
+                  "title": "Use `or` with `and`",
+                  "summary": "Documentation about Use `or` with `and`",
+                  "content_hash": "sha256:9ee74a22615421540037ad24",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:5599b17a6973604d498b16b2",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:9be97b2b5d4b6412ef8e455c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-on-a-foreign-table",
+                  "title": "On a foreign table",
+                  "summary": "Documentation about On a foreign table",
+                  "content_hash": "sha256:3ae38b575d11a561c764b2fa",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:61c7b5868762f296e3a20607",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:9e55a906fb5148b88230f2f0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-on-a-foreign-table",
+                  "title": "On a foreign table",
+                  "summary": "Documentation about On a foreign table",
+                  "content_hash": "sha256:6fd69879f227fd0227557089",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:ce023a2647deb463173da4e2",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:438ab1bf8b15abe01ac1c0cf",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-on-a-foreign-table",
+                  "title": "On a foreign table",
+                  "summary": "Documentation about On a foreign table",
+                  "content_hash": "sha256:499b5c78e651a6e670e73f7f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:b281ee07eb88f6d4a064fbca",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:37c3e1ab37e77f458475ca3c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-gotrue-client",
+                  "title": "Create gotrue client",
+                  "summary": "Documentation about Create gotrue client",
+                  "content_hash": "sha256:7c54941e0ed40538783ec009",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:9176a1ae447598fcd41dae53",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-sign-up-with-email",
+                  "title": "Sign up with email",
+                  "summary": "Documentation about Sign up with email",
+                  "content_hash": "sha256:0b4cb7ba47006ad25816a8c5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-up-with-a-phone-number",
+                  "title": "Sign up with a phone number",
+                  "summary": "Documentation about Sign up with a phone number",
+                  "content_hash": "sha256:ab603280b502752d27c8dc29",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-up-with-additional-user-metadata",
+                  "title": "Sign up with additional user metadata",
+                  "summary": "Documentation about Sign up with additional user metadata",
+                  "content_hash": "sha256:35140d5503d2a30774f20f06",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-up-with-a-redirect-url",
+                  "title": "Sign up with a redirect URL",
+                  "summary": "Documentation about Sign up with a redirect URL",
+                  "content_hash": "sha256:ee636824069645138a58fc86",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:188dc9e465262d723ddc52a4",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-listen-to-auth-changes",
+                  "title": "Listen to auth changes",
+                  "summary": "Documentation about Listen to auth changes",
+                  "content_hash": "sha256:7e57904ccc0c2cc2c392f45a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:8b6abc7413d59715e47bec7f",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-sign-in-with-email-and-password",
+                  "title": "Sign in with email and password",
+                  "summary": "Documentation about Sign in with email and password",
+                  "content_hash": "sha256:21023560fe649257bcf6be24",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-in-with-phone-and-password",
+                  "title": "Sign in with phone and password",
+                  "summary": "Documentation about Sign in with phone and password",
+                  "content_hash": "sha256:9e78ed8cc7df265efd691a35",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-in-with-id-token",
+                  "title": "Sign in with id token",
+                  "summary": "Documentation about Sign in with id token",
+                  "content_hash": "sha256:bf3e1447c587c2e1658a3116",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:2fee038170182b9e56b35ceb",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-sign-in-with-email",
+                  "title": "Sign in with email",
+                  "summary": "Documentation about Sign in with email",
+                  "content_hash": "sha256:ca18eeb769ce30f9b1f89308",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-in-with-sms-otp",
+                  "title": "Sign in with SMS OTP",
+                  "summary": "Documentation about Sign in with SMS OTP",
+                  "content_hash": "sha256:cdb6bb3d485af11adb9fbd43",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:dada245f81387c2021538f05",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-sign-in-using-a-third-party-provider",
+                  "title": "Sign in using a third-party provider",
+                  "summary": "Documentation about Sign in using a third-party provider",
+                  "content_hash": "sha256:19fbcdc5fdca1c9e92310366",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-in-using-a-third-party-provider-with-scopes",
+                  "title": "Sign in using a third-party provider with scopes",
+                  "summary": "Documentation about Sign in using a third-party provider with scopes",
+                  "content_hash": "sha256:80a53143186cd7294868492f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-create-a-custom-url",
+                  "title": "Create a custom url",
+                  "summary": "Documentation about Create a custom url",
+                  "content_hash": "sha256:894ad4bc38adb9ef0f9485ec",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-create-a-custom-url-with-scopes",
+                  "title": "Create a custom url with scopes",
+                  "summary": "Documentation about Create a custom url with scopes",
+                  "content_hash": "sha256:3fcdc49a0dbe573e5cd3977e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:40d9c955d68f7474147b9b8a",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-sign-in-with-email-domain",
+                  "title": "Sign in with email domain",
+                  "summary": "Documentation about Sign in with email domain",
+                  "content_hash": "sha256:4025c3c6b03489df9bb9d46d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-in-with-provider-uuid",
+                  "title": "Sign in with provider UUID",
+                  "summary": "Documentation about Sign in with provider UUID",
+                  "content_hash": "sha256:d3d313cd07ecdfc869b1b901",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:9b1aa004b70feb081140e8c7",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-sign-out",
+                  "title": "Sign out",
+                  "summary": "Documentation about Sign out",
+                  "content_hash": "sha256:37fbdbb817bce0a1691b718a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-out-all-sessions",
+                  "title": "Sign out all sessions",
+                  "summary": "Documentation about Sign out all sessions",
+                  "content_hash": "sha256:319cb42fe1dcb86bef0e6b0d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-sign-out-all-sessions-except-the-current",
+                  "title": "Sign out all sessions except the current",
+                  "summary": "Documentation about Sign out all sessions except the current",
+                  "content_hash": "sha256:99a889594d2445b053a5c175",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Send a password reset request",
+          "content_hash": "sha256:74095d5eadc28a1c12add6e4",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-send-password-reset-email",
+                  "title": "Send password reset email",
+                  "summary": "Documentation about Send password reset email",
+                  "content_hash": "sha256:90e5cb3ee18abaeea977ae90",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:8d74d60d0ba1b791881fe792",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-verify-an-email-otp",
+                  "title": "Verify an Email OTP",
+                  "summary": "Documentation about Verify an Email OTP",
+                  "content_hash": "sha256:7c04046a7c05b03050cbe260",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-verify-an-phone-otp",
+                  "title": "Verify an Phone OTP",
+                  "summary": "Documentation about Verify an Phone OTP",
+                  "content_hash": "sha256:2737688d766662b61f9f9d98",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:f4f7376ca1eafc46daf99f1d",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-get-the-session-data",
+                  "title": "Get the session data",
+                  "summary": "Documentation about Get the session data",
+                  "content_hash": "sha256:72d4485baaa03196b0ca509c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:676c243cd064fdda563d0334",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-refresh-current-session",
+                  "title": "Refresh current session",
+                  "summary": "Documentation about Refresh current session",
+                  "content_hash": "sha256:30e0f646bc1d7795d39a8fd2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-refresh-session-using-the-refresh-token",
+                  "title": "Refresh session using the refresh token",
+                  "summary": "Documentation about Refresh session using the refresh token",
+                  "content_hash": "sha256:3daf0bbb68e8c72468b8ac4d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:bbf5c9e7a9acc1d17a242675",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-get-the-logged-in-user-with-the-current-session",
+                  "title": "Get the logged in user with the current session",
+                  "summary": "Documentation about Get the logged in user with the current session",
+                  "content_hash": "sha256:b296bcb6edcefbb915b7f095",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-get-a-user-based-on-their-access-token",
+                  "title": "Get a user based on their access token",
+                  "summary": "Documentation about Get a user based on their access token",
+                  "content_hash": "sha256:003e27d2a20b5d56649d4a3e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:1ed2786ab7db617a2e6e9692",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-update-the-email-for-an-authenticated-user",
+                  "title": "Update the email for an authenticated user",
+                  "summary": "Documentation about Update the email for an authenticated user",
+                  "content_hash": "sha256:36876d456c99523bb40d5acd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-update-the-password-for-an-authenticated-user",
+                  "title": "Update the password for an authenticated user",
+                  "summary": "Documentation about Update the password for an authenticated user",
+                  "content_hash": "sha256:c1960034db1ade9b26bb669f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-update-the-users-metadata",
+                  "title": "Update the user's metadata",
+                  "summary": "Documentation about Update the user's metadata",
+                  "content_hash": "sha256:77c273019a8871eca7f7a4fc",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:ef263d3773379fd78fedd85a",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-send-reauthentication-nonce",
+                  "title": "Send reauthentication nonce",
+                  "summary": "Documentation about Send reauthentication nonce",
+                  "content_hash": "sha256:d42cf239eefc630f8afd6e6d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:465dcaf3a0e5c602c1d82eda",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-resend-an-email-signup-confirmation",
+                  "title": "Resend an email signup confirmation",
+                  "summary": "Documentation about Resend an email signup confirmation",
+                  "content_hash": "sha256:2dd9344f002b9496d6ab8a5a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-resend-a-phone-signup-confirmation",
+                  "title": "Resend a phone signup confirmation",
+                  "summary": "Documentation about Resend a phone signup confirmation",
+                  "content_hash": "sha256:ae4ef11f993b6df5f6c929bd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-resend-email-change-email",
+                  "title": "Resend email change email",
+                  "summary": "Documentation about Resend email change email",
+                  "content_hash": "sha256:cb93caec46ed32ab29ffb9f7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-resend-phone-change-otp",
+                  "title": "Resend phone change OTP",
+                  "summary": "Documentation about Resend phone change OTP",
+                  "content_hash": "sha256:b6f0d66b7495e61c32709994",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:c16a8b2a47f95785a2461e47",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-set-local-session",
+                  "title": "Set local session",
+                  "summary": "Documentation about Set local session",
+                  "content_hash": "sha256:e93aa7497959da0f6a134af3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:7f3ecccbf21daed1af6abd2d",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-exchange-auth-code",
+                  "title": "Exchange Auth Code",
+                  "summary": "Documentation about Exchange Auth Code",
+                  "content_hash": "sha256:9ebd59bb35e2dacbfeb1bef6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:99a61d4c3d68d46b681c8af1",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-enroll-a-time-based-one-time-password-totp-factor",
+                  "title": "Enroll a time-based, one-time password (TOTP) factor",
+                  "summary": "Documentation about Enroll a time-based, one-time password (TOTP) factor",
+                  "content_hash": "sha256:cb912bbc4979ed73e243ff3e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-check-the-local-user-for-verified-factors",
+                  "title": "Check the local user for verified factors",
+                  "summary": "Documentation about Check the local user for verified factors",
+                  "content_hash": "sha256:5022b53ccfa4d481c2cd5af9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-retrieve-verified-factors",
+                  "title": "Retrieve verified factors",
+                  "summary": "Documentation about Retrieve verified factors",
+                  "content_hash": "sha256:9777fd763a3de0cdf9b08189",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:9b8c87f0c91b2e209212ad38",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-a-challenge-for-a-factor",
+                  "title": "Create a challenge for a factor",
+                  "summary": "Documentation about Create a challenge for a factor",
+                  "content_hash": "sha256:7e59fc95bfd1ec46f7869a32",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:f2ff612118d4b30a3b52dd7e",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-verify-a-challenge-for-a-factor",
+                  "title": "Verify a challenge for a factor",
+                  "summary": "Documentation about Verify a challenge for a factor",
+                  "content_hash": "sha256:60eb89b7d5c36ab19df681c9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:bf10075657ff2f098c3363e2",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-and-verify-a-challenge-for-a-factor",
+                  "title": "Create and verify a challenge for a factor",
+                  "summary": "Documentation about Create and verify a challenge for a factor",
+                  "content_hash": "sha256:22e5ce37b82faed9ca3eb01d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:9d9e6557e186709c254cab6a",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-unenroll-a-factor",
+                  "title": "Unenroll a factor",
+                  "summary": "Documentation about Unenroll a factor",
+                  "content_hash": "sha256:3e79432c69639723566c9bae",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "mfa.getAuthenticatorAssuranceLevel()",
+          "content_hash": "sha256:6cb2b638adbe6b6e4b8f69d1",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-get-the-aal-details-of-the-current-session",
+                  "title": "Get the AAL details of the current session",
+                  "summary": "Documentation about Get the AAL details of the current session",
+                  "content_hash": "sha256:36a83ad09afe38c64dff685d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-check-whether-the-user-has-at-least-one-verified-factor",
+                  "title": "Check whether the user has at least one verified factor",
+                  "summary": "Documentation about Check whether the user has at least one verified factor",
+                  "content_hash": "sha256:7814c31c38095092b957598f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-check-whether-the-user-is-logged-in-using-aal2",
+                  "title": "Check whether the user is logged in using AAL2",
+                  "summary": "Documentation about Check whether the user is logged in using AAL2",
+                  "content_hash": "sha256:3469412ada7a76456098a292",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-server-side-auth-client",
+                  "title": "Create server-side auth client",
+                  "summary": "Documentation about Create server-side auth client",
+                  "content_hash": "sha256:220b4f9619a973664e42e036",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d370ba5b07e6394de10e4993",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-fetch-the-user-object-using-the-accesstoken-jwt",
+                  "title": "Fetch the user object using the access_token jwt",
+                  "summary": "Documentation about Fetch the user object using the access_token jwt",
+                  "content_hash": "sha256:5b41b14ccac5eaf3a58283f3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:5610a726b4d6f849050adbe1",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-get-a-page-of-users",
+                  "title": "Get a page of users",
+                  "summary": "Documentation about Get a page of users",
+                  "content_hash": "sha256:17b97415e8ab4a029b225061",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-paginated-list-of-users",
+                  "title": "Paginated list of users",
+                  "summary": "Documentation about Paginated list of users",
+                  "content_hash": "sha256:287fa72b0fff4cf7b5b95cc4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:2650905a38bb895a60eec2fb",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-user-with-email",
+                  "title": "Create user with email",
+                  "summary": "Documentation about Create user with email",
+                  "content_hash": "sha256:efb08053b343c2690af34f08",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-create-user-with-phone",
+                  "title": "Create user with phone",
+                  "summary": "Documentation about Create user with phone",
+                  "content_hash": "sha256:3b51cd0d3bdbce399d491e4c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-auto-confirm-the-users-email",
+                  "title": "Auto-confirm the user's email",
+                  "summary": "Documentation about Auto-confirm the user's email",
+                  "content_hash": "sha256:127c048631a87f3d18f48a2c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-auto-confirm-the-users-phone-number",
+                  "title": "Auto-confirm the user's phone number",
+                  "summary": "Documentation about Auto-confirm the user's phone number",
+                  "content_hash": "sha256:2828f9d47e12225bf67287fe",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:95c207d04c0d3171d99c3f33",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-removes-a-user",
+                  "title": "Removes a user",
+                  "summary": "Documentation about Removes a user",
+                  "content_hash": "sha256:9e16d619710d8e911be77af7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:beac90accc6b7a7a4aa7cccb",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-invite-a-user",
+                  "title": "Invite a user",
+                  "summary": "Documentation about Invite a user",
+                  "content_hash": "sha256:ffe30394f3d88362dec24f2a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:8eea0dbc2ed92d375c1e7baf",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-generate-a-signup-link",
+                  "title": "Generate a signup link",
+                  "summary": "Documentation about Generate a signup link",
+                  "content_hash": "sha256:3378dace2c9f4e91b18fdbf4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-generate-an-invite-link",
+                  "title": "Generate an invite link",
+                  "summary": "Documentation about Generate an invite link",
+                  "content_hash": "sha256:68f7405e8b8bb347ef758716",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-generate-a-magic-link",
+                  "title": "Generate a magic link",
+                  "summary": "Documentation about Generate a magic link",
+                  "content_hash": "sha256:d8671189c68887aec833ebbb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-generate-a-recovery-link",
+                  "title": "Generate a recovery link",
+                  "summary": "Documentation about Generate a recovery link",
+                  "content_hash": "sha256:3b57970bf9ffdd9b3b85e048",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-generate-links-to-change-current-email-address",
+                  "title": "Generate links to change current email address",
+                  "summary": "Documentation about Generate links to change current email address",
+                  "content_hash": "sha256:a60f14ba2f9c420e43924605",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:59824506b7755364cb5a3383",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-updates-a-users-email",
+                  "title": "Updates a user's email",
+                  "summary": "Documentation about Updates a user's email",
+                  "content_hash": "sha256:cf5d9336018408326c1857df",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-updates-a-users-password",
+                  "title": "Updates a user's password",
+                  "summary": "Documentation about Updates a user's password",
+                  "content_hash": "sha256:65b59f4cbf8e734e0b24df68",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-updates-a-users-metadata",
+                  "title": "Updates a user's metadata",
+                  "summary": "Documentation about Updates a user's metadata",
+                  "content_hash": "sha256:9f943f51a39fba4197c1e1a5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-updates-a-users-appmetadata",
+                  "title": "Updates a user's app_metadata",
+                  "summary": "Documentation about Updates a user's app_metadata",
+                  "content_hash": "sha256:6ae608c1dc8f9c82536579f6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-confirms-a-users-email-address",
+                  "title": "Confirms a user's email address",
+                  "summary": "Documentation about Confirms a user's email address",
+                  "content_hash": "sha256:be170d0588397b1d340e0997",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-confirms-a-users-phone-number",
+                  "title": "Confirms a user's phone number",
+                  "summary": "Documentation about Confirms a user's phone number",
+                  "content_hash": "sha256:77a9ffb05c1319e922866e2d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:349a4193a71874a0a3d72403",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-delete-a-factor-for-a-user",
+                  "title": "Delete a factor for a user",
+                  "summary": "Documentation about Delete a factor for a user",
+                  "content_hash": "sha256:1ee66a8405c57e9b6c558517",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:064e5e7bc874680d76fe79e4",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-basic-invocation",
+                  "title": "Basic invocation",
+                  "summary": "Documentation about Basic invocation",
+                  "content_hash": "sha256:36c50be145e3b2fb761a85b1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-basic-invocation-with-body",
+                  "title": "Basic invocation with body",
+                  "summary": "Documentation about Basic invocation with body",
+                  "content_hash": "sha256:ccf5bfe872e3a62a8dbf3333",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-reuse-function-by-saving-it-to-a-variable",
+                  "title": "Reuse function by saving it to a variable",
+                  "summary": "Documentation about Reuse function by saving it to a variable",
+                  "content_hash": "sha256:f712105a1b4b1df3053ca4a8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:fc44a9a338614fdb6a2133b1",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-connect-to-realtime",
+                  "title": "Connect to Realtime",
+                  "summary": "Documentation about Connect to Realtime",
+                  "content_hash": "sha256:6165ca9e79dadc6baa64ee42",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-broadcasts",
+                  "title": "Listen to broadcasts",
+                  "summary": "Documentation about Listen to broadcasts",
+                  "content_hash": "sha256:c348ff40a85bdf9c3873fab9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-presence-updates",
+                  "title": "Listen to presence updates",
+                  "summary": "Documentation about Listen to presence updates",
+                  "content_hash": "sha256:eae752ac4b1e9ba8636a2c9e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-all-database-changes",
+                  "title": "Listen to all database changes",
+                  "summary": "Documentation about Listen to all database changes",
+                  "content_hash": "sha256:82d40e54c6d7c0e2d725d63e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-a-specific-table",
+                  "title": "Listen to a specific table",
+                  "summary": "Documentation about Listen to a specific table",
+                  "content_hash": "sha256:8e43eb829e62d8e5b9451723",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-inserts",
+                  "title": "Listen to inserts",
+                  "summary": "Documentation about Listen to inserts",
+                  "content_hash": "sha256:9c7f7e225c6406502b0416c4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-updates",
+                  "title": "Listen to updates",
+                  "summary": "Documentation about Listen to updates",
+                  "content_hash": "sha256:952d0611ca77ac1bb2a4d4b9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-deletes",
+                  "title": "Listen to deletes",
+                  "summary": "Documentation about Listen to deletes",
+                  "content_hash": "sha256:b8dd0674fa30b15df550e9f8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-row-level-changes",
+                  "title": "Listen to row level changes",
+                  "summary": "Documentation about Listen to row level changes",
+                  "content_hash": "sha256:da9358b908c2904c0ddbb0eb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:bbb121529dae13a2a1e9d338",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-remove-a-channel",
+                  "title": "Remove a channel",
+                  "summary": "Documentation about Remove a channel",
+                  "content_hash": "sha256:ee9db59821dabf2b23a84c1b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-unsubscribe-from-a-channel",
+                  "title": "Unsubscribe from a channel",
+                  "summary": "Documentation about Unsubscribe from a channel",
+                  "content_hash": "sha256:758c0b616f0201f3a6569242",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:e9d152c714aa7ae23d82dd3c",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-remove-all-channels",
+                  "title": "Remove all channels",
+                  "summary": "Documentation about Remove all channels",
+                  "content_hash": "sha256:bc57e4e96e14c837b51cb7ff",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:c280fd0a54b23abc0908db0f",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-get-all-channels",
+                  "title": "Get all channels",
+                  "summary": "Documentation about Get all channels",
+                  "content_hash": "sha256:4d0af7839a3904ac08dd9b34",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:814743f59077c5e7108a29a6",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-list-buckets",
+                  "title": "List buckets",
+                  "summary": "Documentation about List buckets",
+                  "content_hash": "sha256:20f019af3c39ce961033eb59",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:74d12e8c7fb259b62c6f74ec",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-get-bucket",
+                  "title": "Get bucket",
+                  "summary": "Documentation about Get bucket",
+                  "content_hash": "sha256:9b8dd36ce9f4f85c8e9d0d11",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:458fe6c08b846933b8f44bc1",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-bucket",
+                  "title": "Create bucket",
+                  "summary": "Documentation about Create bucket",
+                  "content_hash": "sha256:0054dec29aea5aa19debab4d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:d70bdcb01d090cd1b68d2326",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-empty-bucket",
+                  "title": "Empty bucket",
+                  "summary": "Documentation about Empty bucket",
+                  "content_hash": "sha256:6ad013a0450a72d185760ef0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:62c942db32a31dfdc3e6d90e",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-update-bucket",
+                  "title": "Update bucket",
+                  "summary": "Documentation about Update bucket",
+                  "content_hash": "sha256:2abac029298b297da4667b29",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:9558acd7e59efb5887f219c0",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-delete-bucket",
+                  "title": "Delete bucket",
+                  "summary": "Documentation about Delete bucket",
+                  "content_hash": "sha256:f4740b6f751eda1c5d8c51d6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:f1240b7dcc7fe8b585923f78",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-upload-file",
+                  "title": "Upload file",
+                  "summary": "Documentation about Upload file",
+                  "content_hash": "sha256:25126e632dd5bdc4bf379e5a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-upload-file-with-progress",
+                  "title": "Upload file with progress",
+                  "summary": "Documentation about Upload file with progress",
+                  "content_hash": "sha256:85dd87ad4c3ae3fdda631707",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-create-resumable-upload",
+                  "title": "Create resumable upload",
+                  "summary": "Documentation about Create resumable upload",
+                  "content_hash": "sha256:c707856eb04393d547f0e5d0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-start-and-resumable-upload",
+                  "title": "Start and resumable upload",
+                  "summary": "Documentation about Start and resumable upload",
+                  "content_hash": "sha256:f95d263add758671764e1818",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-pause-resumable-upload",
+                  "title": "Pause resumable upload",
+                  "summary": "Documentation about Pause resumable upload",
+                  "content_hash": "sha256:941513f9f8e415b738d9a324",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-cancel-resumable-upload",
+                  "title": "Cancel resumable upload",
+                  "summary": "Documentation about Cancel resumable upload",
+                  "content_hash": "sha256:d0c18b82feba9e2b44cfedde",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-listen-to-the-resumable-upload-state",
+                  "title": "Listen to the resumable upload state",
+                  "summary": "Documentation about Listen to the resumable upload state",
+                  "content_hash": "sha256:b6855b4e24ee0e943d309948",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-continue-previous-uploads",
+                  "title": "Continue previous uploads",
+                  "summary": "Documentation about Continue previous uploads",
+                  "content_hash": "sha256:4347afb516e43a199a8e4cbd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:1f6467c262f130d19263dfe0",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-update-file",
+                  "title": "Update file",
+                  "summary": "Documentation about Update file",
+                  "content_hash": "sha256:6b5cf3b284927b9711549af7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:12178165b50e8468d093aa54",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-move-file",
+                  "title": "Move file",
+                  "summary": "Documentation about Move file",
+                  "content_hash": "sha256:de043485f6e7c0d122d8fc0e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:718eea499ad121d729ee76a2",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-copy-file",
+                  "title": "Copy file",
+                  "summary": "Documentation about Copy file",
+                  "content_hash": "sha256:6e630e33e7eb140fa9d879f9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:0541d9d1fa5e507e451a6b4b",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-signed-url",
+                  "title": "Create Signed URL",
+                  "summary": "Documentation about Create Signed URL",
+                  "content_hash": "sha256:b00d083d98ec86bfded6a08f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-create-signed-url-with-transformation",
+                  "title": "Create Signed URL with transformation",
+                  "summary": "Documentation about Create Signed URL with transformation",
+                  "content_hash": "sha256:0b9a5638aff8d744c1ce4ba5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:3bfb3288d04ff16bcfb7baa3",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-signed-urls",
+                  "title": "Create Signed URLs",
+                  "summary": "Documentation about Create Signed URLs",
+                  "content_hash": "sha256:b9a516f1adb139f2844ba649",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "from.createSignedUploadUrl()",
+          "content_hash": "sha256:9fc8af910b8586d397f68217",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-create-signed-upload-url",
+                  "title": "Create Signed Upload URL",
+                  "summary": "Documentation about Create Signed Upload URL",
+                  "content_hash": "sha256:b865d7dacaacbb7a27af80c6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:b9c7c98b19fea687c4ceb361",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-upload-to-a-signed-url",
+                  "title": "Upload to a signed URL",
+                  "summary": "Documentation about Upload to a signed URL",
+                  "content_hash": "sha256:d9baa7fe2c82cf265014b7c5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:76a3a33e1e274d5d8401a171",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-returns-the-url-for-an-asset-in-a-public-bucket",
+                  "title": "Returns the URL for an asset in a public bucket",
+                  "summary": "Documentation about Returns the URL for an asset in a public bucket",
+                  "content_hash": "sha256:dc4ef1aee0cac69da455289a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-returns-the-url-for-an-asset-in-a-public-bucket-with-transformations",
+                  "title": "Returns the URL for an asset in a public bucket with transformations",
+                  "summary": "Documentation about Returns the URL for an asset in a public bucket with transformations",
+                  "content_hash": "sha256:f8ceddc263c9c70e7886c901",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:90d3ad2c5c9b3e121a2d6354",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-download-file-from-non-public-bucket",
+                  "title": "Download file from non-public bucket",
+                  "summary": "Documentation about Download file from non-public bucket",
+                  "content_hash": "sha256:ebc6a93269fd4bec65391344",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-download-file-from-public-bucket",
+                  "title": "Download file from public bucket",
+                  "summary": "Documentation about Download file from public bucket",
+                  "content_hash": "sha256:d0bafd7d6608c83106e72de1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-download-file-with-transformation",
+                  "title": "Download file with transformation",
+                  "summary": "Documentation about Download file with transformation",
+                  "content_hash": "sha256:1a7af1080ca22146a9917a88",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "kotlin.txt-download-file-with-progress",
+                  "title": "Download file with progress",
+                  "summary": "Documentation about Download file with progress",
+                  "content_hash": "sha256:c0910589e8400a74c76ef0f3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:b13bcc5dd4884edf21aaa1c1",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-delete-file",
+                  "title": "Delete file",
+                  "summary": "Documentation about Delete file",
+                  "content_hash": "sha256:41a34b8fb829e3de2fa54828",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "kotlin.txt-kotlin-reference",
+          "title": "Kotlin Reference",
+          "summary": "Documentation about Kotlin Reference",
+          "content_hash": "sha256:349f89560bfa93747c73c004",
+          "children": [
+            {
+              "id": "kotlin.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "kotlin.txt-list-files-in-a-bucket",
+                  "title": "List files in a bucket",
+                  "summary": "Documentation about List files in a bucket",
+                  "content_hash": "sha256:042650a5fe9d1389fc38378b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "kotlin.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "kotlin.txt-kotlin-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        }
+      ]
+    }
+  }
+}

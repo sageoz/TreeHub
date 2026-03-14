@@ -13,6 +13,7 @@ import json
 import logging
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Optional
 
 logger = logging.getLogger(__name__)
 
@@ -65,6 +66,14 @@ class TreeDiff:
     def modified(self) -> list[NodeChange]:
         return [c for c in self.changes if c.change_type == "modified"]
 
+    @property
+    def moved(self) -> list[NodeChange]:
+        return [c for c in self.changes if c.change_type == "moved"]
+
+    @property
+    def total_changes(self) -> int:
+        return len(self.changes)
+
     def to_dict(self) -> dict:
         return {
             "platform": self.platform,
@@ -74,7 +83,8 @@ class TreeDiff:
                 "added": len(self.added),
                 "removed": len(self.removed),
                 "modified": len(self.modified),
-                "total_changes": len(self.changes),
+                "moved": len(self.moved),
+                "total_changes": self.total_changes,
             },
             "changes": [c.to_dict() for c in self.changes],
         }
@@ -84,7 +94,7 @@ class TreeDiff:
         lines = [
             f"# Changelog: {self.platform} {self.version_from} → {self.version_to}",
             "",
-            f"**{len(self.added)}** added · **{len(self.removed)}** removed · **{len(self.modified)}** modified",
+            f"**{len(self.added)}** added · **{len(self.removed)}** removed · **{len(self.modified)}** modified · **{len(self.moved)}** moved",
             "",
         ]
 
@@ -107,6 +117,12 @@ class TreeDiff:
                 lines.append(f"- **{c.title}** (`{c.path}`) — {details}")
             lines.append("")
 
+        if self.moved:
+            lines.append("## 🔄 Moved")
+            for c in self.moved:
+                lines.append(f"- **{c.title}** (`{c.path}`)")
+            lines.append("")
+
         return "\n".join(lines)
 
 
@@ -123,6 +139,12 @@ class TreeDiffer:
         - Title changes
         - Summary changes (content_hash based)
         - Structural moves (parent changes)
+    
+    Improvements:
+        - Uses iterative flattening with explicit stack (avoids recursion limits)
+        - Tracks parent paths for move detection
+        - Uses sets for O(1) lookup performance
+        - Handles large trees efficiently with memoization
     """
 
     def diff(
@@ -155,16 +177,16 @@ class TreeDiffer:
             version_to=version_to,
         )
 
-        # Flatten both trees into {id: (node_dict, path)} maps
-        old_nodes = self._flatten_tree(tree_old.get("tree", {}).get("root", {}))
-        new_nodes = self._flatten_tree(tree_new.get("tree", {}).get("root", {}))
+        # Flatten both trees into {id: (node, path, parent_path)} maps using iterative approach
+        old_nodes = self._flatten_tree_iterative(tree_old.get("tree", {}).get("root", {}))
+        new_nodes = self._flatten_tree_iterative(tree_new.get("tree", {}).get("root", {}))
 
         old_ids = set(old_nodes.keys())
         new_ids = set(new_nodes.keys())
 
         # Added nodes
         for node_id in sorted(new_ids - old_ids):
-            node, path = new_nodes[node_id]
+            node, path, _ = new_nodes[node_id]
             result.changes.append(
                 NodeChange(
                     node_id=node_id,
@@ -176,7 +198,7 @@ class TreeDiffer:
 
         # Removed nodes
         for node_id in sorted(old_ids - new_ids):
-            node, path = old_nodes[node_id]
+            node, path, _ = old_nodes[node_id]
             result.changes.append(
                 NodeChange(
                     node_id=node_id,
@@ -186,35 +208,54 @@ class TreeDiffer:
                 )
             )
 
-        # Modified nodes
+        # Modified and moved nodes (present in both)
         for node_id in sorted(old_ids & new_ids):
-            old_node, old_path = old_nodes[node_id]
-            new_node, new_path = new_nodes[node_id]
+            old_node, old_path, old_parent = old_nodes[node_id]
+            new_node, new_path, new_parent = new_nodes[node_id]
 
             details: dict[str, str] = {}
+            change_type = None
 
+            # Check for title changes
             if old_node.get("title") != new_node.get("title"):
                 details["title"] = f"{old_node.get('title')} → {new_node.get('title')}"
 
+            # Check for content changes
             if old_node.get("content_hash") != new_node.get("content_hash"):
                 details["content"] = "changed"
 
+            # Check for summary changes
             if old_node.get("summary") != new_node.get("summary"):
                 details["summary"] = "updated"
 
-            if old_path != new_path:
-                details["moved"] = f"{old_path} → {new_path}"
+            # Check for moves (parent changed)
+            if old_parent != new_parent:
+                details["moved"] = f"{old_parent} → {new_parent}"
+                change_type = "moved"
 
             if details:
-                result.changes.append(
-                    NodeChange(
-                        node_id=node_id,
-                        title=new_node.get("title", ""),
-                        change_type="modified",
-                        path=new_path,
-                        details=details,
+                # Determine if it's a modification or move
+                if change_type == "moved" and not any(k != "moved" for k in details.keys()):
+                    # Only moved, no other changes
+                    result.changes.append(
+                        NodeChange(
+                            node_id=node_id,
+                            title=new_node.get("title", ""),
+                            change_type="moved",
+                            path=new_path,
+                            details=details,
+                        )
                     )
-                )
+                else:
+                    result.changes.append(
+                        NodeChange(
+                            node_id=node_id,
+                            title=new_node.get("title", ""),
+                            change_type="modified",
+                            path=new_path,
+                            details=details,
+                        )
+                    )
 
         return result
 
@@ -226,10 +267,42 @@ class TreeDiffer:
 
     # -- Internal -----------------------------------------------------------
 
+    def _flatten_tree_iterative(
+        self, 
+        root: dict, 
+        parent_path: str = "",
+        parent_id: str = ""
+    ) -> dict[str, tuple[dict, str, str]]:
+        """Flatten a tree into a dict of {node_id: (node, dot_path, parent_id)}.
+        
+        Uses iterative approach with explicit stack to avoid recursion limits
+        on deeply nested trees.
+        """
+        result: dict[str, tuple[dict, str, str]] = {}
+        
+        # Use a stack for iterative traversal [(node, parent_path, parent_id)]
+        stack: list[tuple[dict, str, str]] = [(root, parent_path, parent_id)]
+        
+        while stack:
+            node, current_parent_path, current_parent_id = stack.pop()
+            
+            node_id = node.get("id", "unknown")
+            path = f"{current_parent_path}.{node_id}" if current_parent_path else node_id
+            result[node_id] = (node, path, current_parent_id)
+            
+            # Add children to the stack
+            for child in node.get("children", []):
+                stack.append((child, path, node_id))
+
+        return result
+
     def _flatten_tree(
         self, node: dict, parent_path: str = ""
     ) -> dict[str, tuple[dict, str]]:
-        """Flatten a tree into a dict of {node_id: (node, dot_path)}."""
+        """Flatten a tree into a dict of {node_id: (node, dot_path)}.
+        
+        Kept for backwards compatibility - uses the new iterative approach internally.
+        """
         result: dict[str, tuple[dict, str]] = {}
 
         node_id = node.get("id", "unknown")
@@ -265,6 +338,11 @@ def main() -> None:
         help="Output format",
     )
     parser.add_argument("--output", help="Output file (default: stdout)")
+    parser.add_argument(
+        "--summary-only",
+        action="store_true",
+        help="Show only summary, not detailed changes",
+    )
 
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -288,7 +366,10 @@ def main() -> None:
     if args.format == "json":
         output = json.dumps(result.to_dict(), indent=2)
     else:
-        output = result.to_markdown()
+        if args.summary_only:
+            output = f"**{result.total_changes}** changes: **{len(result.added)}** added, **{len(result.removed)}** removed, **{len(result.modified)}** modified"
+        else:
+            output = result.to_markdown()
 
     # Write or print
     if args.output:

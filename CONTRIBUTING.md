@@ -39,7 +39,7 @@ cd treehub
 
 # Create virtual environment
 python -m venv .venv
-source .venv/bin/activate
+source source .venv/bin/activate
 
 # Install with dev dependencies
 pip install -e ".[dev]"

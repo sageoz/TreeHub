@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "platform": "supabase",
+    "version": "v4",
+    "source_file": "llms.txt",
+    "indexed_at": "2026-03-10T18:06:52.253892+00:00",
+    "tree_hash": "sha256:d4cab93c2edf5421953312bc0192a5d7f53e1eac48cbc293b07104afbb04a29f",
+    "pages_count": 10,
+    "indexer_version": "3.0.0"
+  },
+  "tree": {
+    "root": {
+      "id": "root",
+      "title": "Supabase Documentation",
+      "summary": "Documentation index for supabase",
+      "content_hash": "",
+      "children": [
+        {
+          "id": "llms.txt-supabase-docs",
+          "title": "Supabase Docs",
+          "summary": "Supabase Docs",
+          "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+          "children": [
+            {
+              "id": "llms.txt-supabase-guides",
+              "title": "Supabase Guides",
+              "summary": "Documentation page: Supabase Guides",
+              "content_hash": "sha256:82a2020237fa6bf54c575891",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "llms.txt-supabase-reference-javascript",
+              "title": "Supabase Reference (JavaScript)",
+              "summary": "Documentation page: Supabase Reference (JavaScript)",
+              "content_hash": "sha256:71224058afc6b886af463e2e",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "llms.txt-supabase-reference-dart",
+              "title": "Supabase Reference (Dart)",
+              "summary": "Documentation page: Supabase Reference (Dart)",
+              "content_hash": "sha256:22faeb75cb80be3254daa7f7",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "llms.txt-supabase-reference-swift",
+              "title": "Supabase Reference (Swift)",
+              "summary": "Documentation page: Supabase Reference (Swift)",
+              "content_hash": "sha256:b0790860ae855e6c2e2e985d",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "llms.txt-supabase-reference-kotlin",
+              "title": "Supabase Reference (Kotlin)",
+              "summary": "Documentation page: Supabase Reference (Kotlin)",
+              "content_hash": "sha256:f6d3d7061c4494ff0228aac1",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "llms.txt-supabase-reference-python",
+              "title": "Supabase Reference (Python)",
+              "summary": "Documentation page: Supabase Reference (Python)",
+              "content_hash": "sha256:f06191d34022b4e66bd4480f",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "llms.txt-supabase-reference-c",
+              "title": "Supabase Reference (C#)",
+              "summary": "Documentation page: Supabase Reference (C#)",
+              "content_hash": "sha256:b3b99d3068b4917b3dbd0541",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "llms.txt-supabase-cli-reference",
+              "title": "Supabase CLI Reference",
+              "summary": "Documentation page: Supabase CLI Reference",
+              "content_hash": "sha256:76df7c71a8ddafd66d474ccb",
+              "children": [],
+              "relationships": {
+                "parent": "llms.txt-supabase-docs",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        }
+      ]
+    }
+  }
+}

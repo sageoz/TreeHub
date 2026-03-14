@@ -14,7 +14,6 @@ Usage:
 Install:
     pip install -e ./cli
 """
-
 from __future__ import annotations
 
 import hashlib
@@ -46,11 +45,39 @@ DEFAULT_INDICES_DIR = Path(__file__).resolve().parent.parent / "indices"
 
 
 def _parse_platform_version(spec: str) -> tuple[str, str]:
-    """Parse 'platform@version' into (platform, version)."""
+    """Parse 'platform@version' into (platform, version).
+    
+    Args:
+        spec: A string in format 'platform@version' or just 'platform'.
+        
+    Returns:
+        Tuple of (platform, version) where version defaults to 'latest'.
+        
+    Raises:
+        ValueError: If the platform name is invalid.
+    """
+    if not spec or not isinstance(spec, str):
+        raise ValueError("Platform/version spec cannot be empty")
+    
     if "@" in spec:
         platform, version = spec.split("@", 1)
     else:
         platform, version = spec, "latest"
+    
+    # Validate platform name (lowercase alphanumeric with hyphens)
+    if platform and not platform.replace("-", "").isalnum():
+        raise ValueError(
+            f"Invalid platform name: '{platform}'. "
+            "Must be lowercase alphanumeric with optional hyphens."
+        )
+    
+    # Validate version format (basic check)
+    if version and not version.replace(".", "").replace("-", "").isalnum():
+        raise ValueError(
+            f"Invalid version format: '{version}'. "
+            "Must be alphanumeric with optional dots and hyphens."
+        )
+    
     return platform, version
 
 

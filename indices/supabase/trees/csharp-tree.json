@@ -1,0 +1,2643 @@
+{
+  "meta": {
+    "platform": "supabase",
+    "version": "v4",
+    "source_file": "csharp.txt",
+    "indexed_at": "2026-03-10T18:06:52.130746+00:00",
+    "tree_hash": "sha256:3960e02b25da90424a6cc75d72fc0c220c1c6c703a8fe8a8f1963d8c7f0a1d99",
+    "pages_count": 210,
+    "indexer_version": "3.0.0"
+  },
+  "tree": {
+    "root": {
+      "id": "root",
+      "title": "Supabase Documentation",
+      "summary": "Documentation index for supabase",
+      "content_hash": "",
+      "children": [
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:ea9f0bb4ed4fd0fc9d05f725",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-standard",
+                  "title": "Standard",
+                  "summary": "Documentation about Standard",
+                  "content_hash": "sha256:00adeb6c701f5aaa532158a7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-dependency-injection-maui-like",
+                  "title": "Dependency Injection (Maui-like)",
+                  "summary": "Documentation about Dependency Injection (Maui-like)",
+                  "content_hash": "sha256:febdc21d5c0f2bf533fa111e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-with-models-example",
+                  "title": "With Models Example",
+                  "summary": "Documentation about With Models Example",
+                  "content_hash": "sha256:4d610484d8268ea9f2d91761",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:1041653410d339016eadff20",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-getting-your-data",
+                  "title": "Getting your data",
+                  "summary": "Documentation about Getting your data",
+                  "content_hash": "sha256:6eb57636ef90448e94402e61",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-selecting-specific-columns",
+                  "title": "Selecting specific columns",
+                  "summary": "Documentation about Selecting specific columns",
+                  "content_hash": "sha256:3c6ccab669ba94258527b898",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-query-foreign-tables",
+                  "title": "Query foreign tables",
+                  "summary": "Documentation about Query foreign tables",
+                  "content_hash": "sha256:040598b7236434d9a8a4b8cb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-filtering-with-inner-joins",
+                  "title": "Filtering with inner joins",
+                  "summary": "Documentation about Filtering with inner joins",
+                  "content_hash": "sha256:b4c2d617718952f09c439a38",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-querying-with-count-option",
+                  "title": "Querying with count option",
+                  "summary": "Documentation about Querying with count option",
+                  "content_hash": "sha256:78dde378da326c8fa24799d8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-querying-json-data",
+                  "title": "Querying JSON data",
+                  "summary": "Documentation about Querying JSON data",
+                  "content_hash": "sha256:677e5a45dcc19c22b8a315dc",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:5da5e0953ce73bdf2eed9d13",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-create-a-record",
+                  "title": "Create a record",
+                  "summary": "Documentation about Create a record",
+                  "content_hash": "sha256:ce53e3b9add6b83ff70608b4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-bulk-create",
+                  "title": "Bulk create",
+                  "summary": "Documentation about Bulk create",
+                  "content_hash": "sha256:e1f8a1bb7acdfc6811c8bdda",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-fetch-inserted-record",
+                  "title": "Fetch inserted record",
+                  "summary": "Documentation about Fetch inserted record",
+                  "content_hash": "sha256:78a305f957b371e175246fa8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:5b6a19f7d79e01cccf58b57f",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-update-your-data-using-filter",
+                  "title": "Update your data using Filter",
+                  "summary": "Documentation about Update your data using Filter",
+                  "content_hash": "sha256:8380a259bf6b192784247d03",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-update-your-data",
+                  "title": "Update your data",
+                  "summary": "Documentation about Update your data",
+                  "content_hash": "sha256:60c60e9260aaf6a4d8147ad1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:05e9e62c186ffcd15ce5fc1a",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-upsert-your-data",
+                  "title": "Upsert your data",
+                  "summary": "Documentation about Upsert your data",
+                  "content_hash": "sha256:aee174617dd044c3d35be233",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-upserting-into-tables-with-constraints",
+                  "title": "Upserting into tables with constraints",
+                  "summary": "Documentation about Upserting into tables with constraints",
+                  "content_hash": "sha256:993362c99e09b24daf13f834",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-return-the-exact-number-of-rows",
+                  "title": "Return the exact number of rows",
+                  "summary": "Documentation about Return the exact number of rows",
+                  "content_hash": "sha256:e614c58d0a0444088bafb76a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:416c1fb226500c024b424db0",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-delete-records",
+                  "title": "Delete records",
+                  "summary": "Documentation about Delete records",
+                  "content_hash": "sha256:d39cb4945d2c8826cba65392",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:528720852d885698d6094d6f",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-call-a-stored-procedure",
+                  "title": "Call a stored procedure",
+                  "summary": "Documentation about Call a stored procedure",
+                  "content_hash": "sha256:7c480ccd4da97ae2369f7a56",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-with-parameters",
+                  "title": "With Parameters",
+                  "summary": "Documentation about With Parameters",
+                  "content_hash": "sha256:196a28572fc240ef8095ce31",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:bf07ad00ab87c305311ec970",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-applying-filters",
+                  "title": "Applying Filters",
+                  "summary": "Documentation about Applying Filters",
+                  "content_hash": "sha256:a30a9f1c2fd698c93be88700",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-filter-by-values-within-a-json-column",
+                  "title": "Filter by values within a JSON column",
+                  "summary": "Documentation about Filter by values within a JSON column",
+                  "content_hash": "sha256:f19811f11a8d999b4b4782db",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-filter-foreign-tables",
+                  "title": "Filter Foreign Tables",
+                  "summary": "Documentation about Filter Foreign Tables",
+                  "content_hash": "sha256:b58c6c8581e2b87a7f0c7fa3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:bdb25ad2e39b867881a14882",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:d53be5b1d7d8148da090d59c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:c8a93761ba31273e223f1d93",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:efecdfcc9730a93b70f9f48a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:500a9aa8f621627deb55b38d",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:6f026c456353efef9759a1cd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Operator.GreaterThanOrEqual",
+          "content_hash": "sha256:3c5dfbeb55e12f6c49cc15c7",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:544a80b7eb03872e5aca9c93",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:8df1cb025b5a7000e81ee8e7",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:ea4d66d5d0e3ba03c2485439",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:ea6e069cee8c1e278d9d56fd",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:253ad1a2b4eeb0824b2f3fe3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:5e000553046579b36c8f5b9f",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:c15eb08f377c98e263f9be90",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:61d23559f7e78a9fa2b37e9c",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:d1cef1b3db0c8bca40a406d7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:bc43831c9553932cc4265b30",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:e6278286278aa79e00702f09",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:107e28641783643bf662475d",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:51e000660799dae15084b006",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:4e775b926a7c9e901ac13003",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:d4f7e13a377b58244590e985",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:db734125472dfb463942665b",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:fbb0dbd14a13e5856c8108f8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Operator.[FTS,PLFTS,PHFTS,WFTS] (Full Text Search)",
+          "content_hash": "sha256:8425e1e9132da35c135ddd93",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-text-search",
+                  "title": "Text search",
+                  "summary": "Documentation about Text search",
+                  "content_hash": "sha256:421df77c8d5bc32455e7c43c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-basic-normalization",
+                  "title": "Basic normalization",
+                  "summary": "Documentation about Basic normalization",
+                  "content_hash": "sha256:7f8ee84dead4a465d179572f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-full-normalization",
+                  "title": "Full normalization",
+                  "summary": "Documentation about Full normalization",
+                  "content_hash": "sha256:75304d8a1797ac2ee293a0e0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-websearch",
+                  "title": "Websearch",
+                  "summary": "Documentation about Websearch",
+                  "content_hash": "sha256:536c419bf8e94c6f0a8289e5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:8208475204a3ae812cedfa77",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-model",
+                  "title": "With Model",
+                  "summary": "Documentation about With Model",
+                  "content_hash": "sha256:4d7f6039ab7ed5e266bf9bd3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-with-dictionary",
+                  "title": "With Dictionary",
+                  "summary": "Documentation about With Dictionary",
+                  "content_hash": "sha256:55268363bdb21c11cd182a44",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:bd222d4ab5eabe4f1ee466fa",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:39cfa87fe38761d48f573f60",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:c13feca226119f804c021add",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:36ca6c6a9da554d066d2133d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-use-or-with-and",
+                  "title": "Use `or` with `and`",
+                  "summary": "Documentation about Use `or` with `and`",
+                  "content_hash": "sha256:7cbaa76966c7998c99a3683d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:2ce291a32e89bf905607f197",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:76ab6d07972fd4811e5f8b12",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:36ed8642d27f9d4b09e88bf4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-with-embedded-resources",
+                  "title": "With embedded resources",
+                  "summary": "Documentation about With embedded resources",
+                  "content_hash": "sha256:8e159d1099c0ba75b58881b5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:c3549803a7bf64ca39e6a01d",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:2f1d52d70c8b2c1f70fa9791",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-with-embedded-resources",
+                  "title": "With embedded resources",
+                  "summary": "Documentation about With embedded resources",
+                  "content_hash": "sha256:671f2e128fdac428ed914ee5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:0732aa33ba8497f76d63a06e",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:170688905f840769ae886583",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:45f327f08d1035976c0a147b",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-with-select",
+                  "title": "With `Select()`",
+                  "summary": "Documentation about With `Select()`",
+                  "content_hash": "sha256:1473c90e9ba01cb432ff9c25",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:847746b9e4c0be12d96fc9d8",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-sign-up",
+                  "title": "Sign up.",
+                  "summary": "Documentation about Sign up.",
+                  "content_hash": "sha256:797f4b83e66a1bc325d41b54",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:441592e83235158e80a5daea",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-listen-to-auth-changes",
+                  "title": "Listen to auth changes",
+                  "summary": "Documentation about Listen to auth changes",
+                  "content_hash": "sha256:97798f1dc16b12ad695b0f84",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:cc0b10759e6302594fdb8bd9",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-sign-in-with-email-and-password",
+                  "title": "Sign in with email and password",
+                  "summary": "Documentation about Sign in with email and password",
+                  "content_hash": "sha256:975810b7b3a4be73d5664e9d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-sign-in-with-phone-and-password",
+                  "title": "Sign in with phone and password",
+                  "summary": "Documentation about Sign in with phone and password",
+                  "content_hash": "sha256:cbee5e5303306dc08e663dd9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "SendMagicLink() and SignIn(SignInType, Phone)",
+          "content_hash": "sha256:6bd480f5023de2a4d7e98c2a",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-send-magic-link",
+                  "title": "Send Magic Link.",
+                  "summary": "Documentation about Send Magic Link.",
+                  "content_hash": "sha256:8e635a27d52bb177b5769576",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-sign-in-with-sms-otp",
+                  "title": "Sign in with SMS OTP.",
+                  "summary": "Documentation about Sign in with SMS OTP.",
+                  "content_hash": "sha256:1329e9dea45f1e681ca72022",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:770682a14db35f915c237682",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-sign-in-using-a-third-party-provider",
+                  "title": "Sign in using a third-party provider",
+                  "summary": "Documentation about Sign in using a third-party provider",
+                  "content_hash": "sha256:357534e62bf068cc0959587d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-with-scopes",
+                  "title": "With scopes",
+                  "summary": "Documentation about With scopes",
+                  "content_hash": "sha256:517067f55e6da377b232559b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:bb189c85eab63bac0e0495ec",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-sign-out",
+                  "title": "Sign out",
+                  "summary": "Documentation about Sign out",
+                  "content_hash": "sha256:90b097e56f006d033dda436f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:f6ac17851b6ac936022c3ff9",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-verify-sms-one-time-password-otp",
+                  "title": "Verify Sms One-Time Password (OTP)",
+                  "summary": "Documentation about Verify Sms One-Time Password (OTP)",
+                  "content_hash": "sha256:ee932bff5e4c559618df692c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:55b0e1486046d1c72b122366",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-get-the-session-data",
+                  "title": "Get the session data",
+                  "summary": "Documentation about Get the session data",
+                  "content_hash": "sha256:26325ad17555f48f0b9cf196",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:63eefa0ae1c408b907145c60",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-get-the-logged-in-user",
+                  "title": "Get the logged in user",
+                  "summary": "Documentation about Get the logged in user",
+                  "content_hash": "sha256:1471a60f6cc0ccdd322cf501",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:a6e91f2576207628b56c07f1",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-update-the-email-for-an-authenticated-user",
+                  "title": "Update the email for an authenticated user",
+                  "summary": "Documentation about Update the email for an authenticated user",
+                  "content_hash": "sha256:9ef40a0a5319ae3e7667b3ad",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-update-the-password-for-an-authenticated-user",
+                  "title": "Update the password for an authenticated user",
+                  "summary": "Documentation about Update the password for an authenticated user",
+                  "content_hash": "sha256:34bb84e13ca1072ca0d82bf5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-update-the-users-metadata",
+                  "title": "Update the user's metadata",
+                  "summary": "Documentation about Update the user's metadata",
+                  "content_hash": "sha256:0d32122a7f4dd52a1b0bb51a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:f3e623a0de7076fe8180315f",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-basic-invocation",
+                  "title": "Basic invocation.",
+                  "summary": "Documentation about Basic invocation.",
+                  "content_hash": "sha256:6cc4586608b15d0cbbfda811",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-modeled-invocation",
+                  "title": "Modeled invocation",
+                  "summary": "Documentation about Modeled invocation",
+                  "content_hash": "sha256:040aa7977f1a42cc0db7c6cc",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:f3b0b554087103b7c9adb9ae",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-listen-to-broadcast-messages",
+                  "title": "Listen to broadcast messages",
+                  "summary": "Documentation about Listen to broadcast messages",
+                  "content_hash": "sha256:89019d40fdf87b3c0c1f7152",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-listen-to-presence-sync",
+                  "title": "Listen to presence sync",
+                  "summary": "Documentation about Listen to presence sync",
+                  "content_hash": "sha256:e337147af485198ad97bb739",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-listening-to-a-specific-table",
+                  "title": "Listening to a specific table",
+                  "summary": "Documentation about Listening to a specific table",
+                  "content_hash": "sha256:a5290e30b1f2d3802113cbfa",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-listen-to-all-database-changes",
+                  "title": "Listen to all database changes",
+                  "summary": "Documentation about Listen to all database changes",
+                  "content_hash": "sha256:1472815a8220756d5aee9f49",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-listening-to-inserts",
+                  "title": "Listening to inserts",
+                  "summary": "Documentation about Listening to inserts",
+                  "content_hash": "sha256:5a5a241952478c6e897d6f26",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-listening-to-updates",
+                  "title": "Listening to updates",
+                  "summary": "Documentation about Listening to updates",
+                  "content_hash": "sha256:a53451776ebb8319087eb7c2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-listening-to-deletes",
+                  "title": "Listening to deletes",
+                  "summary": "Documentation about Listening to deletes",
+                  "content_hash": "sha256:aac0ed5df024f1ecba7ed715",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-listening-to-row-level-changes",
+                  "title": "Listening to row level changes",
+                  "summary": "Documentation about Listening to row level changes",
+                  "content_hash": "sha256:66a418fe5c0a68031a196ef2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:cdcbae83e9960cc0e27a6942",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-remove-a-channel",
+                  "title": "Remove a channel",
+                  "summary": "Documentation about Remove a channel",
+                  "content_hash": "sha256:363e47225703546c26dba4f7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:091bc8fffef5a9968bdcc55e",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-get-all-channels",
+                  "title": "Get all channels",
+                  "summary": "Documentation about Get all channels",
+                  "content_hash": "sha256:674fdd890ca02cfbf1a35526",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:8d6fe07be874dcef729ce86b",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-list-buckets",
+                  "title": "List buckets",
+                  "summary": "Documentation about List buckets",
+                  "content_hash": "sha256:03de541a47f872aa62518d7c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:41c12ff77fa732e97643fe7d",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-get-bucket",
+                  "title": "Get bucket",
+                  "summary": "Documentation about Get bucket",
+                  "content_hash": "sha256:dc824d3e01b708d1dc3f0933",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:251490c6006dae830837c62a",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-create-bucket",
+                  "title": "Create bucket",
+                  "summary": "Documentation about Create bucket",
+                  "content_hash": "sha256:b078f046e74b9ee97273f81e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:a02a18216c7bbcf732c12502",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-empty-bucket",
+                  "title": "Empty bucket",
+                  "summary": "Documentation about Empty bucket",
+                  "content_hash": "sha256:1e00ee22d861edc8d45b5f24",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:3d7eaf5a5b4afba15e140621",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-update-bucket",
+                  "title": "Update bucket",
+                  "summary": "Documentation about Update bucket",
+                  "content_hash": "sha256:6fc359b0d436b7d040602552",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:40c06a3c20dd2854a7f9631c",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-delete-bucket",
+                  "title": "Delete bucket",
+                  "summary": "Documentation about Delete bucket",
+                  "content_hash": "sha256:b49cb720457f592aca5cf27b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:e042d19420c274372f9fd671",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-upload-file",
+                  "title": "Upload file",
+                  "summary": "Documentation about Upload file",
+                  "content_hash": "sha256:ac21c9c2f8794636bd6ae354",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-upload-file-with-progress",
+                  "title": "Upload file with Progress",
+                  "summary": "Documentation about Upload file with Progress",
+                  "content_hash": "sha256:29eb3de5d5af66a9f1e02d8e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:970c2736596e950413c804d8",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-update-file",
+                  "title": "Update file",
+                  "summary": "Documentation about Update file",
+                  "content_hash": "sha256:69b5a87b70f2acde42af3f06",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:3f4c49120bfc928b442d95b0",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-move-file",
+                  "title": "Move file",
+                  "summary": "Documentation about Move file",
+                  "content_hash": "sha256:3c25ec91779abbe7a49eb614",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:b7d308627db71e474d1ea864",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-create-signed-url",
+                  "title": "Create Signed URL",
+                  "summary": "Documentation about Create Signed URL",
+                  "content_hash": "sha256:1cd78ae0d09c0c86773d063b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:9bf3362d14cafcedeaf976d1",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-returns-the-url-for-an-asset-in-a-public-bucket",
+                  "title": "Returns the URL for an asset in a public bucket",
+                  "summary": "Documentation about Returns the URL for an asset in a public bucket",
+                  "content_hash": "sha256:c3a307ce26fb7df7669a2665",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:ff822998644a1ce6cadb8ca8",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-download-file",
+                  "title": "Download file",
+                  "summary": "Documentation about Download file",
+                  "content_hash": "sha256:ad6fdebfce6028b067e0eba9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "csharp.txt-download-file-with-progress",
+                  "title": "Download file with Progress",
+                  "summary": "Documentation about Download file with Progress",
+                  "content_hash": "sha256:09ef5bca80786ce8afa4d555",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:46baaf0b6356e1fd35de35e2",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-delete-file",
+                  "title": "Delete file",
+                  "summary": "Documentation about Delete file",
+                  "content_hash": "sha256:3a04565145a472b48f140399",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "csharp.txt-c-reference",
+          "title": "C# Reference",
+          "summary": "Documentation about C# Reference",
+          "content_hash": "sha256:b7aa6a2cfa40e5cbc0508965",
+          "children": [
+            {
+              "id": "csharp.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "csharp.txt-list-files-in-a-bucket",
+                  "title": "List files in a bucket",
+                  "summary": "Documentation about List files in a bucket",
+                  "content_hash": "sha256:c98c4ddce27180fadca4ab72",
+                  "children": [],
+                  "relationships": {
+                    "parent": "csharp.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "csharp.txt-c-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4638 @@
+{
+  "meta": {
+    "platform": "supabase",
+    "version": "v4",
+    "source_file": "dart.txt",
+    "indexed_at": "2026-03-10T18:06:52.137060+00:00",
+    "tree_hash": "sha256:dc1a45da7b3898a1a2e7c04ecce9424a3f60b0a6c3f2ece17ab1c509cf3a6657",
+    "pages_count": 370,
+    "indexer_version": "3.0.0"
+  },
+  "tree": {
+    "root": {
+      "id": "root",
+      "title": "Supabase Documentation",
+      "summary": "Documentation index for supabase",
+      "content_hash": "",
+      "children": [
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:8cb32a2a51df187a1b2139f7",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-for-flutter",
+                  "title": "For Flutter",
+                  "summary": "Documentation about For Flutter",
+                  "content_hash": "sha256:7273be6645dd0b1ef5302e8b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-for-other-dart-projects",
+                  "title": "For other Dart projects",
+                  "summary": "Documentation about For other Dart projects",
+                  "content_hash": "sha256:733f28c3b500ae64c4a79a2b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:3487a43ea8b862268796ee09",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-getting-your-data",
+                  "title": "Getting your data",
+                  "summary": "Documentation about Getting your data",
+                  "content_hash": "sha256:b4dda9a2becd679ff5319fd6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-selecting-specific-columns",
+                  "title": "Selecting specific columns",
+                  "summary": "Documentation about Selecting specific columns",
+                  "content_hash": "sha256:8311815976494fc7b88a9ff4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-query-referenced-tables",
+                  "title": "Query referenced tables",
+                  "summary": "Documentation about Query referenced tables",
+                  "content_hash": "sha256:234753cb8e15629584a644cd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-query-referenced-tables-through-a-join-table",
+                  "title": "Query referenced tables through a join table",
+                  "summary": "Documentation about Query referenced tables through a join table",
+                  "content_hash": "sha256:16e540ae7262a274e1ffb5fd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-query-the-same-referenced-table-multiple-times",
+                  "title": "Query the same referenced table multiple times",
+                  "summary": "Documentation about Query the same referenced table multiple times",
+                  "content_hash": "sha256:d9cf435c72e16d772403b02a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-filtering-through-referenced-tables",
+                  "title": "Filtering through referenced tables",
+                  "summary": "Documentation about Filtering through referenced tables",
+                  "content_hash": "sha256:e914be57048cb975e8f2b568",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-querying-with-count-option",
+                  "title": "Querying with count option",
+                  "summary": "Documentation about Querying with count option",
+                  "content_hash": "sha256:ea202f8986fab5561bf9865a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-querying-json-data",
+                  "title": "Querying JSON data",
+                  "summary": "Documentation about Querying JSON data",
+                  "content_hash": "sha256:679151639118ef8f266d6ca6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-querying-referenced-table-with-inner-join",
+                  "title": "Querying referenced table with inner join",
+                  "summary": "Documentation about Querying referenced table with inner join",
+                  "content_hash": "sha256:76b1fc01347a42cf1bcc9fe7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-switching-schemas-per-query",
+                  "title": "Switching schemas per query",
+                  "summary": "Documentation about Switching schemas per query",
+                  "content_hash": "sha256:91aa0d1e1fd3efa582327a8e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:371531b66ee15c15edeeba01",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-create-a-record",
+                  "title": "Create a record",
+                  "summary": "Documentation about Create a record",
+                  "content_hash": "sha256:4d6be890b84d1df5b6461a7b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-fetch-inserted-record",
+                  "title": "Fetch inserted record",
+                  "summary": "Documentation about Fetch inserted record",
+                  "content_hash": "sha256:9ca5fde9a32c25f027f61f81",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-bulk-create",
+                  "title": "Bulk create",
+                  "summary": "Documentation about Bulk create",
+                  "content_hash": "sha256:748fa25f9ea81b1f93f83d81",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:de75c9f8fa2fc9729fbacbef",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-update-your-data",
+                  "title": "Update your data",
+                  "summary": "Documentation about Update your data",
+                  "content_hash": "sha256:598b11b91bc8f49670cccd4b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-update-a-record-and-return-it",
+                  "title": "Update a record and return it",
+                  "summary": "Documentation about Update a record and return it",
+                  "content_hash": "sha256:3e04da6d2f9555fa4cfa4b0f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-update-json-data",
+                  "title": "Update JSON data",
+                  "summary": "Documentation about Update JSON data",
+                  "content_hash": "sha256:1c97b3e668a938c2fda235c4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:50480ea60bf1661b3a617b5c",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-upsert-your-data",
+                  "title": "Upsert your data",
+                  "summary": "Documentation about Upsert your data",
+                  "content_hash": "sha256:43f91a8a8a5a42aa418bb6a2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-bulk-upsert-your-data",
+                  "title": "Bulk Upsert your data",
+                  "summary": "Documentation about Bulk Upsert your data",
+                  "content_hash": "sha256:dafa772963945e1e28d8730b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-upserting-into-tables-with-constraints",
+                  "title": "Upserting into tables with constraints",
+                  "summary": "Documentation about Upserting into tables with constraints",
+                  "content_hash": "sha256:8dfa84444e6525c075509c2f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:7715e2153c03189b99984008",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-delete-records",
+                  "title": "Delete records",
+                  "summary": "Documentation about Delete records",
+                  "content_hash": "sha256:77b4e7725b6dd9a45c099940",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-delete-multiple-records",
+                  "title": "Delete multiple records",
+                  "summary": "Documentation about Delete multiple records",
+                  "content_hash": "sha256:9f9337f9f9b1b8f0f248c6bf",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-fetch-deleted-records",
+                  "title": "Fetch deleted records",
+                  "summary": "Documentation about Fetch deleted records",
+                  "content_hash": "sha256:ba997344f3a4d388c7ef1f5c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:7a2c6848f8cb4de2a34bebe5",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-call-a-postgres-function-without-arguments",
+                  "title": "Call a Postgres function without arguments",
+                  "summary": "Documentation about Call a Postgres function without arguments",
+                  "content_hash": "sha256:9270704a7186c50634cbfa5a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-call-a-postgres-function-with-arguments",
+                  "title": "Call a Postgres function with arguments",
+                  "summary": "Documentation about Call a Postgres function with arguments",
+                  "content_hash": "sha256:90b30b46269fb8bef6dfd58b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-bulk-processing",
+                  "title": "Bulk processing",
+                  "summary": "Documentation about Bulk processing",
+                  "content_hash": "sha256:2a56befe9dc8c960529c90dd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-call-a-postgres-function-with-filters",
+                  "title": "Call a Postgres function with filters",
+                  "summary": "Documentation about Call a Postgres function with filters",
+                  "content_hash": "sha256:9c63b10b09e24b05b33287df",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:b7f15aae38259cae5eccb485",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-applying-filters",
+                  "title": "Applying Filters",
+                  "summary": "Documentation about Applying Filters",
+                  "content_hash": "sha256:bd96cae488046fc6230b0321",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-chaining-filters",
+                  "title": "Chaining Filters",
+                  "summary": "Documentation about Chaining Filters",
+                  "content_hash": "sha256:789be601714dd777167c93cb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-conditional-chaining",
+                  "title": "Conditional Chaining",
+                  "summary": "Documentation about Conditional Chaining",
+                  "content_hash": "sha256:bd5474dcd32c8b11838eadc2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-filter-by-values-within-a-json-column",
+                  "title": "Filter by values within a JSON column",
+                  "summary": "Documentation about Filter by values within a JSON column",
+                  "content_hash": "sha256:36e5c4c00547baaecd243685",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-filter-referenced-tables",
+                  "title": "Filter Referenced Tables",
+                  "summary": "Documentation about Filter Referenced Tables",
+                  "content_hash": "sha256:ac3e4d1579d6e234c617130d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:6367584ef04f1592c29cd371",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:01e02564b193167b8a11e4e0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:95c0a491c21cff61eb1548f8",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:7b9ddcc22f79dcd246b30f5b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:422d6e5d5bd443207d3ca670",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:8085d01de2062666f1df78ac",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:ec8b64bd6fa9ee773df69179",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:c5a9015ecfa78d90ac05236f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:23d11853199a89f784a9fbf7",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:48e77cbe6130eaacad874a95",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:120eb24d21b1a7185374e31f",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:6aafa8c6767e837e1cb36dee",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:e4e7171dee0fa1033d7435e8",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:9bf078f716b080eee2b6696e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:61a24d38fd17f8d3c5ae5f21",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:ff18b2faf602d5fe20b985d0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:9c42ee102c495f68647a45d4",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-checking-for-nullness-true-or-false",
+                  "title": "Checking for nullness, true or false",
+                  "summary": "Documentation about Checking for nullness, true or false",
+                  "content_hash": "sha256:559cb851d13e3d5c776643a7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:5dceb182b07e1c069a2125c2",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:7783008099bd7a31db46bec6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:426baf41d6d6878fa9f56e58",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-on-array-columns",
+                  "title": "On array columns",
+                  "summary": "Documentation about On array columns",
+                  "content_hash": "sha256:177601ae561969e20887143d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-range-columns",
+                  "title": "On range columns",
+                  "summary": "Documentation about On range columns",
+                  "content_hash": "sha256:b068cba7ca7da2da076f0998",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-jsonb-columns",
+                  "title": "On `jsonb` columns",
+                  "summary": "Documentation about On `jsonb` columns",
+                  "content_hash": "sha256:9473bc8b0421ce32adbdd180",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:76f2a04afa494c1b2ab5d615",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-on-array-columns",
+                  "title": "On array columns",
+                  "summary": "Documentation about On array columns",
+                  "content_hash": "sha256:5b45dcba00bf6abefb7f9cc0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-range-columns",
+                  "title": "On range columns",
+                  "summary": "Documentation about On range columns",
+                  "content_hash": "sha256:4f182f948bf543880f109fc6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-jsonb-columns",
+                  "title": "On `jsonb` columns",
+                  "summary": "Documentation about On `jsonb` columns",
+                  "content_hash": "sha256:41c22f6de1b14a6b551899e2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:cdc4e18c63f563727faa7ebc",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:c3ac8047f2888ba3a81e9ea7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:6c06e3fe207266085d57cf31",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:ef2270785956618a64930ad7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:b09bda8b394d98b4567ca056",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:b5ad15c95b3ba82105e874fa",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:989b7e5c0f9892ad6f26187b",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:321c87b004e7e1e57aba7253",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:a0ef43362c0649e130d07813",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:21f2d8f102f863d6949ae76b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:0511a2273c40a76cdfef90d5",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-on-array-columns",
+                  "title": "On array columns",
+                  "summary": "Documentation about On array columns",
+                  "content_hash": "sha256:d6cdef5d77172fe49869653f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-range-columns",
+                  "title": "On range columns",
+                  "summary": "Documentation about On range columns",
+                  "content_hash": "sha256:c0d10107ec1df91c8ad6282d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:55d6d033624b8e5c261086d9",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-text-search",
+                  "title": "Text search",
+                  "summary": "Documentation about Text search",
+                  "content_hash": "sha256:4de1f1504f981a8f4955da07",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-basic-normalization",
+                  "title": "Basic normalization",
+                  "summary": "Documentation about Basic normalization",
+                  "content_hash": "sha256:f7d7e0fa1ae347ab9a3784fa",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-full-normalization",
+                  "title": "Full normalization",
+                  "summary": "Documentation about Full normalization",
+                  "content_hash": "sha256:488157bd43d5ad5571b542e3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-websearch",
+                  "title": "Websearch",
+                  "summary": "Documentation about Websearch",
+                  "content_hash": "sha256:1f37894ecf933ab1d1cb2730",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:fa1c60a857179d39b3898b58",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:cb5629355285bc60d75bf341",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:665d43561c71fad40c591ee2",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:3cbadb508d81b5c1cf701323",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-update",
+                  "title": "With update()",
+                  "summary": "Documentation about With update()",
+                  "content_hash": "sha256:463594ebfcbdab48cd298e5e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-delete",
+                  "title": "With delete()",
+                  "summary": "Documentation about With delete()",
+                  "content_hash": "sha256:8a4be787d5c28ea618a9ed4a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-rpc",
+                  "title": "With rpc()",
+                  "summary": "Documentation about With rpc()",
+                  "content_hash": "sha256:8248578fd74036fbbe32af87",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:f13d46dbf46d0f92fee738a6",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:2ab90368915451c257dc73b8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-use-or-with-and",
+                  "title": "Use `or` with `and`",
+                  "summary": "Documentation about Use `or` with `and`",
+                  "content_hash": "sha256:ff4a3749b39ab80be33b397c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-use-or-on-referenced-tables",
+                  "title": "Use `or` on referenced tables",
+                  "summary": "Documentation about Use `or` on referenced tables",
+                  "content_hash": "sha256:c135dc10605ae3d67d4ca9c6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:3c4fdd92a1056be0eda69998",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:7fc4418235446d4a4bca7b15",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-update",
+                  "title": "With update()",
+                  "summary": "Documentation about With update()",
+                  "content_hash": "sha256:d8b354785d8cbc18a572e64f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-delete",
+                  "title": "With delete()",
+                  "summary": "Documentation about With delete()",
+                  "content_hash": "sha256:30cc90ca99fbcb52384609a1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-rpc",
+                  "title": "With rpc()",
+                  "summary": "Documentation about With rpc()",
+                  "content_hash": "sha256:979932636a6f3eb8d9d4ab25",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-a-referenced-table",
+                  "title": "On a referenced table",
+                  "summary": "Documentation about On a referenced table",
+                  "content_hash": "sha256:6fff7aa562008d915d1db6fd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:35b9b7bf3d0e6f295a613e24",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:5a6095439526b114483c3468",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-upsert",
+                  "title": "With `upsert()`",
+                  "summary": "Documentation about With `upsert()`",
+                  "content_hash": "sha256:43f91a8a8a5a42aa418bb6a2",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:75198f12de7c15e6471573a1",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:4960935ba686c99df247bcb0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-a-referenced-table",
+                  "title": "On a referenced table",
+                  "summary": "Documentation about On a referenced table",
+                  "content_hash": "sha256:77b5a45b3c7c85b780110536",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-order-parent-table-by-a-referenced-table",
+                  "title": "Order parent table by a referenced table",
+                  "summary": "Documentation about Order parent table by a referenced table",
+                  "content_hash": "sha256:00cb481a88f41db821144320",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:270dd586359d8b25f88d92a6",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:104949bb38bd0e0cecbd6953",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-on-a-referenced-table",
+                  "title": "On a referenced table",
+                  "summary": "Documentation about On a referenced table",
+                  "content_hash": "sha256:96a67735431e1aeae6c00e77",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:f678658b6bbc33eab94d5114",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:6621c4d81a223e3b9dee93e1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:5a4859ad70126564c48e81e3",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With select()",
+                  "summary": "Documentation about With select()",
+                  "content_hash": "sha256:82a7d0cb9e17d80658b93203",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:8033a35733ecc0458aceee28",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-select",
+                  "title": "With `select()`",
+                  "summary": "Documentation about With `select()`",
+                  "content_hash": "sha256:49795e6d4a5d305032d04c37",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:71e4e44b3dcfbfd52f465de9",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-return-data-as-csv",
+                  "title": "Return data as CSV",
+                  "summary": "Documentation about Return data as CSV",
+                  "content_hash": "sha256:c4b5a6a15023b59c8e283b8d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:da5ac72146b8af49aae7edc2",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-get-the-execution-plan",
+                  "title": "Get the execution plan",
+                  "summary": "Documentation about Get the execution plan",
+                  "content_hash": "sha256:ecece68b45f53e38a55cb965",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-get-the-execution-plan-with-analyze-and-verbose",
+                  "title": "Get the execution plan with analyze and verbose",
+                  "summary": "Documentation about Get the execution plan with analyze and verbose",
+                  "content_hash": "sha256:442288387d0c3f73672618eb",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:e96e61069a01878941886ae9",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-sign-up-with-an-email-and-password",
+                  "title": "Sign up with an email and password",
+                  "summary": "Documentation about Sign up with an email and password",
+                  "content_hash": "sha256:d58be70f49c55606023f2a95",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-sign-up-with-a-phone-number-and-password-sms",
+                  "title": "Sign up with a phone number and password (SMS)",
+                  "summary": "Documentation about Sign up with a phone number and password (SMS)",
+                  "content_hash": "sha256:d4f5616c4e2de0bb045abd4e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-sign-up-with-additional-metadata",
+                  "title": "Sign up with additional metadata",
+                  "summary": "Documentation about Sign up with additional metadata",
+                  "content_hash": "sha256:ab6d46f4ba5cae5406892113",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-sign-up-with-redirect-url",
+                  "title": "Sign up with redirect URL",
+                  "summary": "Documentation about Sign up with redirect URL",
+                  "content_hash": "sha256:db58399505a0633768a99f04",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:5baaed0a1f1ddfe1a068af02",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-listen-to-auth-changes",
+                  "title": "Listen to auth changes",
+                  "summary": "Documentation about Listen to auth changes",
+                  "content_hash": "sha256:2335f34f24074e0db426094e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-a-specific-event",
+                  "title": "Listen to a specific event",
+                  "summary": "Documentation about Listen to a specific event",
+                  "content_hash": "sha256:34d6e687ae90e744f3c55abd",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-unsubscribe-from-auth-subscription",
+                  "title": "Unsubscribe from auth subscription",
+                  "summary": "Documentation about Unsubscribe from auth subscription",
+                  "content_hash": "sha256:af7bacf33f8e40d56a28533b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:92cf7abbfa1f0d6d76feb96f",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-create-an-anonymous-user",
+                  "title": "Create an anonymous user",
+                  "summary": "Documentation about Create an anonymous user",
+                  "content_hash": "sha256:4ef5f779e974080d3bd95b5c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-create-an-anonymous-user-with-custom-user-metadata",
+                  "title": "Create an anonymous user with custom user metadata",
+                  "summary": "Documentation about Create an anonymous user with custom user metadata",
+                  "content_hash": "sha256:520d6f7f623db7dc7d0c569c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:c0c4aaf4cfc71aabe57a8eec",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-sign-in-with-email-and-password",
+                  "title": "Sign in with email and password",
+                  "summary": "Documentation about Sign in with email and password",
+                  "content_hash": "sha256:d1e7c90f0e82d9cc81fcfb90",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-sign-in-with-phone-and-password",
+                  "title": "Sign in with phone and password",
+                  "summary": "Documentation about Sign in with phone and password",
+                  "content_hash": "sha256:218c3ff6c0abcdde7a57f622",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:41da69f8c7ca50a1f7f958b9",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-native-google-sign-in",
+                  "title": "Native Google sign in",
+                  "summary": "Documentation about Native Google sign in",
+                  "content_hash": "sha256:8cbef2ddfa87c91d15a22a1b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-native-apple-sign-in",
+                  "title": "Native Apple Sign in",
+                  "summary": "Documentation about Native Apple Sign in",
+                  "content_hash": "sha256:927a10ad1ead9713a1cf0cf5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-native-facebook-sign-in",
+                  "title": "Native Facebook Sign in",
+                  "summary": "Documentation about Native Facebook Sign in",
+                  "content_hash": "sha256:002d46acad04b4b23019a056",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:4f09751cba279145d61a2597",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-sign-in-with-email",
+                  "title": "Sign in with email.",
+                  "summary": "Documentation about Sign in with email.",
+                  "content_hash": "sha256:176932fc482e3d9972259c11",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-sign-in-with-sms-otp",
+                  "title": "Sign in with SMS OTP.",
+                  "summary": "Documentation about Sign in with SMS OTP.",
+                  "content_hash": "sha256:c856583efd50eecfa068627c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-sign-in-with-whatsapp-otp",
+                  "title": "Sign in with WhatsApp OTP",
+                  "summary": "Documentation about Sign in with WhatsApp OTP",
+                  "content_hash": "sha256:568a09aeb5564ba6c85b4c37",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:2ff629239934e06e7028750c",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-sign-in-using-a-third-party-provider",
+                  "title": "Sign in using a third-party provider",
+                  "summary": "Documentation about Sign in using a third-party provider",
+                  "content_hash": "sha256:9ecdbf9bb5799e7c3051748f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-redirectto",
+                  "title": "With `redirectTo`",
+                  "summary": "Documentation about With `redirectTo`",
+                  "content_hash": "sha256:7e61b9e1677c11662e2d3bd6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-scopes",
+                  "title": "With scopes",
+                  "summary": "Documentation about With scopes",
+                  "content_hash": "sha256:efd88e72171c1530b9f4697a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:40d9c955d68f7474147b9b8a",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-sign-in-with-email-domain",
+                  "title": "Sign in with email domain",
+                  "summary": "Documentation about Sign in with email domain",
+                  "content_hash": "sha256:a5ee9bc7f52c8b84b8bc891c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-sign-in-with-provider-uuid",
+                  "title": "Sign in with provider UUID",
+                  "summary": "Documentation about Sign in with provider UUID",
+                  "content_hash": "sha256:e4ced66b6c38bd263f3eb130",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:825211e1d0af28a3ff6cab8d",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-sign-out",
+                  "title": "Sign out",
+                  "summary": "Documentation about Sign out",
+                  "content_hash": "sha256:9f3cf031e78c8badb4f16b85",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:2a2888f1845f8b6a2d35338f",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-verify-signup-one-time-password-otp",
+                  "title": "Verify Signup One-Time Password (OTP)",
+                  "summary": "Documentation about Verify Signup One-Time Password (OTP)",
+                  "content_hash": "sha256:37ff4a63dece514694d171b9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-verify-sms-one-time-password-otp",
+                  "title": "Verify SMS One-Time Password (OTP)",
+                  "summary": "Documentation about Verify SMS One-Time Password (OTP)",
+                  "content_hash": "sha256:ef8f3ba54fdd5078cc5422d1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:bfb62d9fc3f2841bf91bd226",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-get-the-session-data",
+                  "title": "Get the session data",
+                  "summary": "Documentation about Get the session data",
+                  "content_hash": "sha256:616cfffacc8dac8ac25a6b8e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:676c243cd064fdda563d0334",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-refresh-session-using-the-current-session",
+                  "title": "Refresh session using the current session",
+                  "summary": "Documentation about Refresh session using the current session",
+                  "content_hash": "sha256:962c0f4abcf881676f657bbe",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:97d6e8374ef228bd8d257412",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-get-the-logged-in-user",
+                  "title": "Get the logged in user",
+                  "summary": "Documentation about Get the logged in user",
+                  "content_hash": "sha256:66d6c4344a0c5bf52f8032ed",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:e86da43d08ecddbe2f1cbc35",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-update-the-email-for-an-authenticated-user",
+                  "title": "Update the email for an authenticated user",
+                  "summary": "Documentation about Update the email for an authenticated user",
+                  "content_hash": "sha256:11a820b7a3b328afbd4767d1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-update-the-password-for-an-authenticated-user",
+                  "title": "Update the password for an authenticated user",
+                  "summary": "Documentation about Update the password for an authenticated user",
+                  "content_hash": "sha256:ed184a71d7d4c4015fbae48f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-update-the-users-metadata",
+                  "title": "Update the user's metadata",
+                  "summary": "Documentation about Update the user's metadata",
+                  "content_hash": "sha256:f89a3ed0f1eb23a0ee4a4341",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-update-the-users-password-with-a-nonce",
+                  "title": "Update the user's password with a nonce",
+                  "summary": "Documentation about Update the user's password with a nonce",
+                  "content_hash": "sha256:7bc3e5ec1738c8143bcf3e02",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:2cea8f9ecf8a0af701eb0f69",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-returns-a-list-of-identities-linked-to-the-user",
+                  "title": "Returns a list of identities linked to the user",
+                  "summary": "Documentation about Returns a list of identities linked to the user",
+                  "content_hash": "sha256:4fc9b7194cd417dd0e6527a0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:25ec4327dfbae2c1b55a4986",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-link-an-identity-to-a-user",
+                  "title": "Link an identity to a user",
+                  "summary": "Documentation about Link an identity to a user",
+                  "content_hash": "sha256:9450fb3e713f4b38a9f37bc0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:6c0820fda18304c3544e34cc",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-unlink-an-identity",
+                  "title": "Unlink an identity",
+                  "summary": "Documentation about Unlink an identity",
+                  "content_hash": "sha256:6f99549d2a3cb32c6341322d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:ef263d3773379fd78fedd85a",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-send-reauthentication-nonce",
+                  "title": "Send reauthentication nonce",
+                  "summary": "Documentation about Send reauthentication nonce",
+                  "content_hash": "sha256:36c9ac35f6babc6b3ee04dde",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:465dcaf3a0e5c602c1d82eda",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-resend-an-email-signup-confirmation",
+                  "title": "Resend an email signup confirmation",
+                  "summary": "Documentation about Resend an email signup confirmation",
+                  "content_hash": "sha256:9db09b92037224054f8c29f3",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:8a319d5a51d573857973caf0",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-refresh-the-session",
+                  "title": "Refresh the session",
+                  "summary": "Documentation about Refresh the session",
+                  "content_hash": "sha256:dfcb39801fb7004619b26713",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:73518092591bcc2730217f20",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-enroll-a-time-based-one-time-password-totp-factor",
+                  "title": "Enroll a time-based, one-time password (TOTP) factor",
+                  "summary": "Documentation about Enroll a time-based, one-time password (TOTP) factor",
+                  "content_hash": "sha256:fe3a48cb484d84f1d7240f4a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-enroll-a-phone-factor",
+                  "title": "Enroll a Phone Factor",
+                  "summary": "Documentation about Enroll a Phone Factor",
+                  "content_hash": "sha256:230e6fa65bca7d34d324bab8",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:9b8c87f0c91b2e209212ad38",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-create-a-challenge-for-a-factor",
+                  "title": "Create a challenge for a factor",
+                  "summary": "Documentation about Create a challenge for a factor",
+                  "content_hash": "sha256:1321a0fad440a329dfc72909",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:f2ff612118d4b30a3b52dd7e",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-verify-a-challenge-for-a-factor",
+                  "title": "Verify a challenge for a factor",
+                  "summary": "Documentation about Verify a challenge for a factor",
+                  "content_hash": "sha256:04fa06842503528cfb8626c1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:bf10075657ff2f098c3363e2",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-create-and-verify-a-challenge-for-a-factor",
+                  "title": "Create and verify a challenge for a factor",
+                  "summary": "Documentation about Create and verify a challenge for a factor",
+                  "content_hash": "sha256:85b9218ec7e353e5cc98ba9b",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:9d9e6557e186709c254cab6a",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-unenroll-a-factor",
+                  "title": "Unenroll a factor",
+                  "summary": "Documentation about Unenroll a factor",
+                  "content_hash": "sha256:a632728b01995c3f072d07a1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "mfa.getAuthenticatorAssuranceLevel()",
+          "content_hash": "sha256:6cb2b638adbe6b6e4b8f69d1",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-get-the-aal-details-of-a-session",
+                  "title": "Get the AAL details of a session",
+                  "summary": "Documentation about Get the AAL details of a session",
+                  "content_hash": "sha256:43ee06293089a573b1fb32c5",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-create-server-side-auth-client",
+                  "title": "Create server-side auth client",
+                  "summary": "Documentation about Create server-side auth client",
+                  "content_hash": "sha256:bc1f467936915e108bc2d24f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:d370ba5b07e6394de10e4993",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-fetch-the-user-object-using-the-accesstoken-jwt",
+                  "title": "Fetch the user object using the access_token jwt",
+                  "summary": "Documentation about Fetch the user object using the access_token jwt",
+                  "content_hash": "sha256:79cf50d5a19cb968e004d29f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:5610a726b4d6f849050adbe1",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-get-a-page-of-users",
+                  "title": "Get a page of users",
+                  "summary": "Documentation about Get a page of users",
+                  "content_hash": "sha256:8fed9cc80f1f03c105fb87a4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-paginated-list-of-users",
+                  "title": "Paginated list of users",
+                  "summary": "Documentation about Paginated list of users",
+                  "content_hash": "sha256:e322951975e0aba5fc324229",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:2650905a38bb895a60eec2fb",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-with-custom-user-metadata",
+                  "title": "With custom user metadata",
+                  "summary": "Documentation about With custom user metadata",
+                  "content_hash": "sha256:65584d0894d26ebfde63f6be",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-auto-confirm-the-users-email",
+                  "title": "Auto-confirm the user's email",
+                  "summary": "Documentation about Auto-confirm the user's email",
+                  "content_hash": "sha256:580c9b0817b487c2088d5e77",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-auto-confirm-the-users-phone-number",
+                  "title": "Auto-confirm the user's phone number",
+                  "summary": "Documentation about Auto-confirm the user's phone number",
+                  "content_hash": "sha256:1c205537740cd53514482d4e",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:95c207d04c0d3171d99c3f33",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-removes-a-user",
+                  "title": "Removes a user",
+                  "summary": "Documentation about Removes a user",
+                  "content_hash": "sha256:499b3bfcc9cd6a9e990896f1",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:beac90accc6b7a7a4aa7cccb",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-invite-a-user",
+                  "title": "Invite a user",
+                  "summary": "Documentation about Invite a user",
+                  "content_hash": "sha256:52639f620e6d78db1066a792",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:8eea0dbc2ed92d375c1e7baf",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-generate-a-signup-link",
+                  "title": "Generate a signup link",
+                  "summary": "Documentation about Generate a signup link",
+                  "content_hash": "sha256:c0fed500c57da595d6de5d4d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:59824506b7755364cb5a3383",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-updates-a-users-email",
+                  "title": "Updates a user's email",
+                  "summary": "Documentation about Updates a user's email",
+                  "content_hash": "sha256:c54f679a05b93c32fdcf37b9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:f3e623a0de7076fe8180315f",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-basic-invocation",
+                  "title": "Basic invocation.",
+                  "summary": "Documentation about Basic invocation.",
+                  "content_hash": "sha256:2be5e46d2d0f30264ff6700d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-parsing-custom-headers",
+                  "title": "Parsing custom headers.",
+                  "summary": "Documentation about Parsing custom headers.",
+                  "content_hash": "sha256:8993b08ae0d6d0010bf95f88",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:677401f322ba26606d20ccd8",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-listen-to-a-table",
+                  "title": "Listen to a table",
+                  "summary": "Documentation about Listen to a table",
+                  "content_hash": "sha256:75c2b02420a01689389c6049",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-filter-order-and-limit",
+                  "title": "With filter, order and limit",
+                  "summary": "Documentation about With filter, order and limit",
+                  "content_hash": "sha256:993221dff28c8108e911c00c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-an-in-filter",
+                  "title": "With an IN filter",
+                  "summary": "Documentation about With an IN filter",
+                  "content_hash": "sha256:cbc2a0a12c3f2f74b13818c6",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-using-stream-with-streambuilder",
+                  "title": "Using `stream()` with `StreamBuilder`",
+                  "summary": "Documentation about Using `stream()` with `StreamBuilder`",
+                  "content_hash": "sha256:edf4456223227dc706767bf0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:fc44a9a338614fdb6a2133b1",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-listen-to-database-changes",
+                  "title": "Listen to database changes",
+                  "summary": "Documentation about Listen to database changes",
+                  "content_hash": "sha256:b470056526a9d9dbe42bc451",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-inserts",
+                  "title": "Listen to inserts",
+                  "summary": "Documentation about Listen to inserts",
+                  "content_hash": "sha256:6e14d86bd5d6007aff0cceb4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-updates",
+                  "title": "Listen to updates",
+                  "summary": "Documentation about Listen to updates",
+                  "content_hash": "sha256:72de64b21e2271c925005984",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-deletes",
+                  "title": "Listen to deletes",
+                  "summary": "Documentation about Listen to deletes",
+                  "content_hash": "sha256:f7569d4d08ce8110bb07d89c",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-multiple-events",
+                  "title": "Listen to multiple events",
+                  "summary": "Documentation about Listen to multiple events",
+                  "content_hash": "sha256:caf084bd38d9d5a4eeee7287",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-row-level-changes",
+                  "title": "Listen to row level changes",
+                  "summary": "Documentation about Listen to row level changes",
+                  "content_hash": "sha256:7cdc67e292e97d4dbceaacaf",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-broadcast-messages",
+                  "title": "Listen to broadcast messages",
+                  "summary": "Documentation about Listen to broadcast messages",
+                  "content_hash": "sha256:23f76c6cde6409614e913954",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-listen-to-presence-events",
+                  "title": "Listen to presence events",
+                  "summary": "Documentation about Listen to presence events",
+                  "content_hash": "sha256:c7130697cc57d7ab02178042",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:bbb121529dae13a2a1e9d338",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-remove-a-channel",
+                  "title": "Remove a channel",
+                  "summary": "Documentation about Remove a channel",
+                  "content_hash": "sha256:ce6ad0d4f76e8062d13ea9e9",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:aed0cf9bc93bae93685b211d",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-remove-all-channels",
+                  "title": "Remove all channels",
+                  "summary": "Documentation about Remove all channels",
+                  "content_hash": "sha256:08b6b0d9db9e9c4c59f1d04d",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:ab9d73f0dcf6a1417804eafd",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-get-all-channels",
+                  "title": "Get all channels",
+                  "summary": "Documentation about Get all channels",
+                  "content_hash": "sha256:5973dbb1a9755a6d42ec29d4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:d4b1ea5708dd532930a85188",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:f7df892956c3ac23c8354f1a",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-list-buckets",
+                  "title": "List buckets",
+                  "summary": "Documentation about List buckets",
+                  "content_hash": "sha256:12048864103a2ca2e75c2d81",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:3dd2105a8e7a69c8f30c7b8f",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-get-bucket",
+                  "title": "Get bucket",
+                  "summary": "Documentation about Get bucket",
+                  "content_hash": "sha256:e73b7354d716e2809c8607d4",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:435deeb14773deb37940b13c",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-create-bucket",
+                  "title": "Create bucket",
+                  "summary": "Documentation about Create bucket",
+                  "content_hash": "sha256:8a3110266f12f349b77dee92",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:7db25b2c2329b8fe4018e230",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-empty-bucket",
+                  "title": "Empty bucket",
+                  "summary": "Documentation about Empty bucket",
+                  "content_hash": "sha256:87d1af7607fbeb239f8f9df0",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:a9e8a465621bb0fb2a83190c",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-update-bucket",
+                  "title": "Update bucket",
+                  "summary": "Documentation about Update bucket",
+                  "content_hash": "sha256:ca025430346e83f97ee9fa25",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:ad78327030733d02c462ad5e",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-delete-bucket",
+                  "title": "Delete bucket",
+                  "summary": "Documentation about Delete bucket",
+                  "content_hash": "sha256:79ee6d745cd5f873f2ae428f",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:b5dca91a417ab2360d9f7a56",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-upload-file",
+                  "title": "Upload file",
+                  "summary": "Documentation about Upload file",
+                  "content_hash": "sha256:3f785a67566537f91f67ba6a",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-upload-file-on-web",
+                  "title": "Upload file on web",
+                  "summary": "Documentation about Upload file on web",
+                  "content_hash": "sha256:eeb3d7b2de0aef121c8347a7",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:40c37d1d42eca58eb475b883",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-update-file",
+                  "title": "Update file",
+                  "summary": "Documentation about Update file",
+                  "content_hash": "sha256:2c9743209e67672f3a6ac127",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-update-file-on-web",
+                  "title": "Update file on web",
+                  "summary": "Documentation about Update file on web",
+                  "content_hash": "sha256:7636a55b0dfc5cebc0e2e451",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:9632e7338be18b7ced463db7",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-move-file",
+                  "title": "Move file",
+                  "summary": "Documentation about Move file",
+                  "content_hash": "sha256:7198034931891cdc1fcd6596",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:fb50b7eb86ebcd8b41467161",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-create-signed-url",
+                  "title": "Create Signed URL",
+                  "summary": "Documentation about Create Signed URL",
+                  "content_hash": "sha256:c7ee9dd6c0ef574971edc573",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-transform",
+                  "title": "With transform",
+                  "summary": "Documentation about With transform",
+                  "content_hash": "sha256:4b0a616e7da61b36ad4b6a29",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:9bf3362d14cafcedeaf976d1",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-returns-the-url-for-an-asset-in-a-public-bucket",
+                  "title": "Returns the URL for an asset in a public bucket",
+                  "summary": "Documentation about Returns the URL for an asset in a public bucket",
+                  "content_hash": "sha256:fb202d18b90fb55a10ac79aa",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-transform",
+                  "title": "With transform",
+                  "summary": "Documentation about With transform",
+                  "content_hash": "sha256:7848e0522fa23bd8f14a33bc",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:f98602330792727f1d1d39c5",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-download-file",
+                  "title": "Download file",
+                  "summary": "Documentation about Download file",
+                  "content_hash": "sha256:cc2288345714cf19d9f82a18",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                },
+                {
+                  "id": "dart.txt-with-transform",
+                  "title": "With transform",
+                  "summary": "Documentation about With transform",
+                  "content_hash": "sha256:1992cc3e906ed2ab7aad9120",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:d6482b4e08790c9cf40adf86",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-delete-file",
+                  "title": "Delete file",
+                  "summary": "Documentation about Delete file",
+                  "content_hash": "sha256:a1b46cb3f5ff8f528b8c1856",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "dart.txt-dart-reference",
+          "title": "Dart Reference",
+          "summary": "Documentation about Dart Reference",
+          "content_hash": "sha256:45bd470849d17c6e29944241",
+          "children": [
+            {
+              "id": "dart.txt-examples",
+              "title": "Examples",
+              "summary": "Examples",
+              "content_hash": "sha256:e3b0c44298fc1c149afbf4c8",
+              "children": [
+                {
+                  "id": "dart.txt-list-files-in-a-bucket",
+                  "title": "List files in a bucket",
+                  "summary": "Documentation about List files in a bucket",
+                  "content_hash": "sha256:fa802d2cbb458a9cff14d4da",
+                  "children": [],
+                  "relationships": {
+                    "parent": "dart.txt-examples",
+                    "related": [],
+                    "next_page": null
+                  }
+                }
+              ],
+              "relationships": {
+                "parent": "dart.txt-dart-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        }
+      ]
+    }
+  }
+}

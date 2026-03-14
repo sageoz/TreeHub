@@ -1,0 +1,15 @@
+{
+  "platform": "supabase",
+  "version": "v4",
+  "trees": [
+    "cli-tree.json",
+    "csharp-tree.json",
+    "dart-tree.json",
+    "guides-tree.json",
+    "js-tree.json",
+    "kotlin-tree.json",
+    "llms-tree.json",
+    "python-tree.json",
+    "swift-tree.json"
+  ]
+}

@@ -1,0 +1,1511 @@
+{
+  "meta": {
+    "platform": "supabase",
+    "version": "v4",
+    "source_file": "cli.txt",
+    "indexed_at": "2026-03-10T18:06:52.125872+00:00",
+    "tree_hash": "sha256:aaa8e498b38f5d68bfee1b8f553733c9c4330250d60d9a614a3422b7bfd54226",
+    "pages_count": 125,
+    "indexer_version": "3.0.0"
+  },
+  "tree": {
+    "root": {
+      "id": "root",
+      "title": "Supabase Documentation",
+      "summary": "Documentation index for supabase",
+      "content_hash": "",
+      "children": [
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Bootstrap a Supabase project from a starter template",
+          "content_hash": "sha256:ab2eb2579631aebd88d4f3bc",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Initialize a local project",
+          "content_hash": "sha256:d93b88dc02c96142c4d6753b",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Authenticate using an access token",
+          "content_hash": "sha256:35876b9ce5612379a567d663",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Link to a Supabase project",
+          "content_hash": "sha256:bfe19c76655bf624fb128baa",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Start containers for Supabase local development",
+          "content_hash": "sha256:9a8b50da32c65a2083164ba5",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Stop all local Supabase containers",
+          "content_hash": "sha256:92e0b0f07fb3469100c01638",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show status of local Supabase containers",
+          "content_hash": "sha256:2e1d26a4c8add8b4ad2e4794",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Run tests on local Supabase containers",
+          "content_hash": "sha256:8a2ea0a522206ee66c231f33",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Tests local database with pgTAP",
+          "content_hash": "sha256:09fc0cb28ae020865aa9378a",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:97fd14ce8889ae94bb242366",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Run code generation tools",
+          "content_hash": "sha256:f8e223e275a2e0922df5650b",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate a JWT signing key",
+          "content_hash": "sha256:8680ab5a352b09c15e18e253",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate types from Postgres schema",
+          "content_hash": "sha256:a4a61286e2df1b6822be4ad1",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Postgres databases",
+          "content_hash": "sha256:ea6809d8bb26565616b7126e",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Pull schema from the remote database",
+          "content_hash": "sha256:27ef289d88e0799a5ee4def9",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Push new migrations to the remote database",
+          "content_hash": "sha256:07612fb81949073dd10b8b1b",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Resets the local database to current migrations",
+          "content_hash": "sha256:e84f72e2daa5ef88f12b9187",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Dumps data or schemas from the remote database",
+          "content_hash": "sha256:b208a3abe3ad420379a76db4",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Diffs the local database for schema changes",
+          "content_hash": "sha256:9fad23c7fc05789e4d65bae6",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Checks local database for typing error",
+          "content_hash": "sha256:7aaa437aebfc081ce4b0e028",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Starts local Postgres database",
+          "content_hash": "sha256:c2f7f163478a164e909bfd5e",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage database migration scripts",
+          "content_hash": "sha256:bd307383f3423766432bed2d",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Create an empty migration script",
+          "content_hash": "sha256:44fa6192332a65f331fb3842",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List local and remote migrations",
+          "content_hash": "sha256:acf916d4f024ef7d131086d9",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Fetch migration files from history table",
+          "content_hash": "sha256:7bede72963dcd8e0661e571a",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Repair the migration history table",
+          "content_hash": "sha256:ed985703c3e846063a86dc25",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Squash migrations to a single file",
+          "content_hash": "sha256:79d99f56b9d28da992077772",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Apply pending migrations to local database",
+          "content_hash": "sha256:577d1670e763313bd3c52a58",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Resets applied migrations up to the last n versions",
+          "content_hash": "sha256:e92c0521ac90ed5efe4bf2d0",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Seed a Supabase project from supabase/config.toml",
+          "content_hash": "sha256:55143330ad83bfe140110447",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Seed buckets declared in [storage.buckets]",
+          "content_hash": "sha256:f1eb5d48dc2023c920df0fe2",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Tools to inspect your Supabase database",
+          "content_hash": "sha256:06199e703138bcca2b479e02",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Estimates space allocated to a relation that is full of dead tuples",
+          "content_hash": "sha256:b34d20e6d7bc62c2ef78d056",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show queries that are holding locks and the queries that are waiting for them to be released",
+          "content_hash": "sha256:567dee14cef70e91799da0a1",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show queries from pg_stat_statements ordered by total times called",
+          "content_hash": "sha256:03937e7d52f4740f4c743466",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show stats such as cache hit rates, total sizes, and WAL size",
+          "content_hash": "sha256:0861cf24abcfdcf60efebcd4",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show combined index size, usage percent, scan counts, and unused status",
+          "content_hash": "sha256:c4d5123b73914017890b3a21",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show queries which have taken out an exclusive lock on a relation",
+          "content_hash": "sha256:0444ab1bf3d8c7c4b38059f3",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show currently running queries running for longer than 5 minutes",
+          "content_hash": "sha256:337b6919e96ccf1e570e4b3b",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show queries from pg_stat_statements ordered by total execution time",
+          "content_hash": "sha256:12b357250230efec80f570c9",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show information about replication slots on the database",
+          "content_hash": "sha256:a1763307c09b79ed0d4e6dbf",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show information about roles on the database",
+          "content_hash": "sha256:a163130011e9625bf64bb150",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show combined table size, index size, and estimated row count",
+          "content_hash": "sha256:58403ca276006a09d8bb1554",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show read/write activity ratio for tables based on block I/O operations",
+          "content_hash": "sha256:2c2a7f94f85686707dacbfef",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show statistics related to vacuum operations per table",
+          "content_hash": "sha256:5ea04b156faf269a0ab47afc",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate a CSV output for all inspect commands",
+          "content_hash": "sha256:97f34086ebf2f3bf55271adb",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Supabase organizations",
+          "content_hash": "sha256:61fae6b0c4133a0a1ae80b4a",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:2933515d2c65dd3b786274dd",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:abcc8e0e75db5a1ccd72bb31",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:81733d9922a736b2c0271b86",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Create a project on Supabase",
+          "content_hash": "sha256:5c8711bee5dc38e37d4a9ae6",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List all Supabase projects",
+          "content_hash": "sha256:f4f662b3ca4f604c831cefb4",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List all API keys for a Supabase project",
+          "content_hash": "sha256:405c2bec91337b870958e4b5",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Delete a Supabase project",
+          "content_hash": "sha256:3c744bc90015eaa9663eac23",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Supabase project configurations",
+          "content_hash": "sha256:bb15b2dbbb5a0e2492569184",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Pushes local config.toml to the linked project",
+          "content_hash": "sha256:bede44c9c5bffca7bc48a9a6",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Supabase preview branches",
+          "content_hash": "sha256:1d59104e13e5b56b0c556202",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:4f0f63ea7adf51facee2fac7",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List all preview branches",
+          "content_hash": "sha256:cf850f3dd5230ee580e9bc25",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Retrieve details of a preview branch",
+          "content_hash": "sha256:51db565d6f23d976a5f93742",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:1d279eb7dfeac979d59173f2",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:8bc89644623cbf7ce0a6c8c4",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:4400a67457a92b32985f1874",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:a983af1836130a2c74998cd0",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Supabase Edge functions",
+          "content_hash": "sha256:bbc73f5be151cdd330840c00",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Create a new Function locally",
+          "content_hash": "sha256:71ca7bf2c8c56e5489160b26",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List all Functions in Supabase",
+          "content_hash": "sha256:0d4e3991468be6a04353a7a3",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Download a Function from Supabase",
+          "content_hash": "sha256:2e4f65a47fbd2213783a6de8",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Serve all Functions locally",
+          "content_hash": "sha256:554f73911e478c56c14f7bb7",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Deploy a Function to Supabase",
+          "content_hash": "sha256:2b25de3a890edd8548383025",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Delete a Function from Supabase",
+          "content_hash": "sha256:3a248548e92e21d6877be46f",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:18860babf7633ef814d6241b",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Set a secret(s) on Supabase",
+          "content_hash": "sha256:cef72464c12598b69a077e1b",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List all secrets on Supabase",
+          "content_hash": "sha256:50d58e166d32d4495692e307",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Unset a secret(s) on Supabase",
+          "content_hash": "sha256:5f03d530bbd44e9eb90946cc",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Supabase Storage objects",
+          "content_hash": "sha256:046091fe946016e0c7bbd200",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List objects by path prefix",
+          "content_hash": "sha256:0abf48318b18433fecdc0366",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Copy objects from src to dst path",
+          "content_hash": "sha256:ef4e58673b2815d7cb031e57",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Move objects from src to dst path",
+          "content_hash": "sha256:55da0c5ecbdf766fe00d5131",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Remove objects by file path",
+          "content_hash": "sha256:4b329549204bf26f15b97075",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Single Sign-On (SSO) authentication for projects",
+          "content_hash": "sha256:8c3dd916e7151ec69ca52b9e",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Add a new SSO identity provider",
+          "content_hash": "sha256:68e3fa712167065f8a0f1ae4",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "List all SSO identity providers for a project",
+          "content_hash": "sha256:42c05de3038c70b0ae6d5f35",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show information about an SSO identity provider",
+          "content_hash": "sha256:21be79b453576ca97a7b061a",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Returns the SAML SSO settings required for the identity provider",
+          "content_hash": "sha256:57d3e01dba1a8d7b862b2f1e",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Update information about an SSO identity provider",
+          "content_hash": "sha256:2d4919f29b631bf4bc7bf341",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Remove an existing SSO identity provider",
+          "content_hash": "sha256:88be15f12248d1b4a07f2585",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage custom domain names for Supabase projects",
+          "content_hash": "sha256:afc210df091e751ae9c6ae28",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Activate the custom hostname for a project",
+          "content_hash": "sha256:600575d72c382673a1f8a163",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:e27287d0252450979332609c",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Get the current custom hostname config",
+          "content_hash": "sha256:2fc8c1164b9d78918327694f",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Re-verify the custom hostname config for your project",
+          "content_hash": "sha256:595f8beea16290588ee7fdd3",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Deletes the custom hostname config for your project",
+          "content_hash": "sha256:19fff7a96234594e6c919641",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage vanity subdomains for Supabase projects",
+          "content_hash": "sha256:40add8350690ba6789247979",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Activate a vanity subdomain",
+          "content_hash": "sha256:03736954d67cc7501cdbfaf1",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Get the current vanity subdomain",
+          "content_hash": "sha256:ed4486092c2de04eb97486e5",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Checks if a desired subdomain is available for use",
+          "content_hash": "sha256:89f535b83e2f803581ae4cd6",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Deletes a project's vanity subdomain",
+          "content_hash": "sha256:928d432d4f705702739be69d",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:4c0551468a23deac37c82415",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Get the current network bans",
+          "content_hash": "sha256:6e9d3af38e4cd488b1ee58af",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:c65c290ef9c099a9a94aa5ca",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage network restrictions",
+          "content_hash": "sha256:ea5983a1533f86a65c7d71ac",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Get the current network restrictions",
+          "content_hash": "sha256:f492ef0b5f98ac969c7ffb50",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Update network restrictions",
+          "content_hash": "sha256:4c11c4e3567636245583637f",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage SSL enforcement configuration",
+          "content_hash": "sha256:53fa6b79cff6d8370770445d",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Get the current SSL enforcement configuration",
+          "content_hash": "sha256:e3411de8bf827b794c02e5fd",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Update SSL enforcement configuration",
+          "content_hash": "sha256:64fe4940f24c2e1b38d9a282",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Postgres database config",
+          "content_hash": "sha256:6c0e4e264a7b2cec2c8acc03",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Get the current Postgres database config overrides",
+          "content_hash": "sha256:72df345d248d4caaf063afd3",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Update Postgres database config",
+          "content_hash": "sha256:aad46e13e068a46eca0598cb",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Delete specific Postgres database config overrides",
+          "content_hash": "sha256:fd166d0fad49bd9f475496b3",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Manage Supabase SQL snippets",
+          "content_hash": "sha256:98a1df915142568b0fddc141",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Documentation about CLI Reference",
+          "content_hash": "sha256:c9ca93eb3ef3e9eac2cc8573",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Download contents of a SQL snippet",
+          "content_hash": "sha256:41fbdc13b65cb6f77a9ba676",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Show versions of all Supabase services",
+          "content_hash": "sha256:7c133a3c88322afbdecea2ba",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate the autocompletion script for the specified shell",
+          "content_hash": "sha256:5b382597cc7f9010a103cff2",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate the autocompletion script for zsh",
+          "content_hash": "sha256:ae60bd55c512fd79864b42a0",
+          "children": [
+            {
+              "id": "cli.txt-linux",
+              "title": "Linux:",
+              "summary": "supabase completion zsh > \"${fpath[1]}/_supabase\"",
+              "content_hash": "sha256:f402f22b3744c8312e2f9539",
+              "children": [],
+              "relationships": {
+                "parent": "cli.txt-cli-reference",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "cli.txt-macos",
+              "title": "macOS:",
+              "summary": "supabase completion zsh > $(brew --prefix)/share/zsh/site-functions/_supabase",
+              "content_hash": "sha256:f11e8ca9bf20827f356b8ed0",
+              "children": [],
+              "relationships": {
+                "parent": "cli.txt-cli-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate the autocompletion script for powershell",
+          "content_hash": "sha256:cb8452bbbdd5658a60407f3f",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate the autocompletion script for fish",
+          "content_hash": "sha256:16942ab495c7276ea86fd50c",
+          "children": [],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        },
+        {
+          "id": "cli.txt-cli-reference",
+          "title": "CLI Reference",
+          "summary": "Generate the autocompletion script for bash",
+          "content_hash": "sha256:f18a9b88097c72e9fc8fec7b",
+          "children": [
+            {
+              "id": "cli.txt-linux",
+              "title": "Linux:",
+              "summary": "supabase completion bash > /etc/bash_completion.d/supabase",
+              "content_hash": "sha256:59c930d524ab0fb6932e028c",
+              "children": [],
+              "relationships": {
+                "parent": "cli.txt-cli-reference",
+                "related": [],
+                "next_page": null
+              }
+            },
+            {
+              "id": "cli.txt-macos",
+              "title": "macOS:",
+              "summary": "supabase completion bash > $(brew --prefix)/etc/bash_completion.d/supabase",
+              "content_hash": "sha256:58c3502b20ea38082c3f6b09",
+              "children": [],
+              "relationships": {
+                "parent": "cli.txt-cli-reference",
+                "related": [],
+                "next_page": null
+              }
+            }
+          ],
+          "relationships": {
+            "parent": "root",
+            "related": [],
+            "next_page": null
+          }
+        }
+      ]
+    }
+  }
+}

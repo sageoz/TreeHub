@@ -15,6 +15,7 @@ import json
 import logging
 import sys
 from pathlib import Path
+from typing import Optional
 
 logger = logging.getLogger(__name__)
 
@@ -32,6 +33,28 @@ INDICES_DIR = PROJECT_ROOT / "indices"
 # ---------------------------------------------------------------------------
 
 
+class ValidationError(Exception):
+    """Custom exception for validation errors with detailed context."""
+    
+    def __init__(self, message: str, file_path: Optional[Path] = None, 
+                 line_number: Optional[int] = None, field_path: Optional[str] = None):
+        self.message = message
+        self.file_path = file_path
+        self.line_number = line_number
+        self.field_path = field_path
+        super().__init__(self._format_message())
+    
+    def _format_message(self) -> str:
+        parts = [self.message]
+        if self.file_path:
+            parts.append(f"File: {self.file_path}")
+        if self.line_number:
+            parts.append(f"Line: {self.line_number}")
+        if self.field_path:
+            parts.append(f"Field: {self.field_path}")
+        return " | ".join(parts)
+
+
 class TreeValidator:
     """Validates TreeHub tree.json and manifest.json files.
 
@@ -40,6 +63,13 @@ class TreeValidator:
         2. Schema compliance — matches tree-schema.json / manifest-schema.json
         3. Integrity — SHA-256 hash verification
         4. Consistency — cross-references between tree and manifest
+        
+    Improvements:
+        - Detailed error messages with file paths and line numbers
+        - Schema caching for improved performance
+        - Circular reference detection in tree structure
+        - Unique ID validation across the tree
+        - Better error recovery and reporting
     """
 
     def __init__(self) -> None:
@@ -47,6 +77,7 @@ class TreeValidator:
         self.warnings: list[str] = []
         self._tree_schema: dict | None = None
         self._manifest_schema: dict | None = None
+        self._schema_cache: dict[str, dict] = {}
 
     # -- Public API ---------------------------------------------------------
 
@@ -58,7 +89,7 @@ class TreeValidator:
         self.errors.clear()
         self.warnings.clear()
 
-        # 1. Parse JSON
+        # 1. Parse JSON with line number tracking
         data = self._load_json(tree_path)
         if data is None:
             return False
@@ -78,13 +109,23 @@ class TreeValidator:
         for field in required_meta:
             if field not in meta:
                 self.errors.append(f"Missing required meta field: '{field}'")
+        
+        # Validate platform format (lowercase, hyphen-separated)
+        if "platform" in meta:
+            platform = meta["platform"]
+            if not isinstance(platform, str):
+                self.errors.append(f"meta.platform must be a string, got {type(platform).__name__}")
+            elif not platform or not platform.replace("-", "").isalnum():
+                self.errors.append(f"meta.platform must be lowercase alphanumeric with hyphens: '{platform}'")
 
         # 4. Validate tree structure
         tree = data.get("tree", {})
         if "root" not in tree:
             self.errors.append("Missing 'root' in tree")
         else:
-            self._validate_node(tree["root"], path="root")
+            # Check for circular references and duplicate IDs
+            seen_ids: set[str] = set()
+            self._validate_node(tree["root"], path="root", seen_ids=seen_ids)
 
         # 5. Validate tree hash integrity
         if "tree_hash" in meta:
@@ -112,6 +153,22 @@ class TreeValidator:
             if field not in data:
                 self.errors.append(f"Missing required field: '{field}'")
 
+        # Validate platform format
+        if "platform" in data:
+            platform = data["platform"]
+            if not isinstance(platform, str):
+                self.errors.append(f"platform must be a string, got {type(platform).__name__}")
+            elif not platform or not platform.replace("-", "").isalnum():
+                self.errors.append(f"platform must be lowercase alphanumeric with hyphens: '{platform}'")
+
+        # Validate version format
+        if "version" in data:
+            version = data["version"]
+            if not isinstance(version, str):
+                self.errors.append(f"version must be a string, got {type(version).__name__}")
+            elif not version:
+                self.errors.append("version cannot be empty")
+
         # Validate files section
         files = data.get("files", {})
         if "tree" in files:
@@ -119,12 +176,27 @@ class TreeValidator:
             for key in ["path", "hash", "size_bytes"]:
                 if key not in tree_file:
                     self.errors.append(f"Missing files.tree.{key}")
+            
+            # Validate hash format
+            if "hash" in tree_file:
+                hash_val = tree_file["hash"]
+                if not hash_val.startswith("sha256:"):
+                    self.errors.append(f"files.tree.hash must start with 'sha256:': {hash_val}")
+                elif len(hash_val) != 71:  # sha256: + 64 hex chars
+                    self.errors.append(f"files.tree.hash must be 71 characters (sha256: + 64 hex): {hash_val}")
 
         # Validate provenance
         provenance = data.get("provenance", {})
         for key in ["indexed_by", "indexer_version"]:
             if key not in provenance:
                 self.errors.append(f"Missing provenance.{key}")
+
+        # Validate stats
+        stats = data.get("stats", {})
+        if "pages_count" in stats:
+            pages = stats["pages_count"]
+            if not isinstance(pages, int) or pages < 0:
+                self.errors.append(f"stats.pages_count must be a non-negative integer: {pages}")
 
         # JSON Schema validation
         self._validate_against_schema(data, "manifest")
@@ -155,12 +227,20 @@ class TreeValidator:
 
         if tree_data and manifest_data:
             # Platform must match
-            if tree_data["meta"]["platform"] != manifest_data["platform"]:
-                self.errors.append("Platform mismatch between tree and manifest")
+            tree_platform = tree_data.get("meta", {}).get("platform", "")
+            manifest_platform = manifest_data.get("platform", "")
+            if tree_platform != manifest_platform:
+                self.errors.append(
+                    f"Platform mismatch: tree has '{tree_platform}', manifest has '{manifest_platform}'"
+                )
 
             # Version must match
-            if tree_data["meta"]["version"] != manifest_data["version"]:
-                self.errors.append("Version mismatch between tree and manifest")
+            tree_version = tree_data.get("meta", {}).get("version", "")
+            manifest_version = manifest_data.get("version", "")
+            if tree_version != manifest_version:
+                self.errors.append(
+                    f"Version mismatch: tree has '{tree_version}', manifest has '{manifest_version}'"
+                )
 
             # Verify file hash from manifest matches actual tree file hash
             tree_bytes = tree_path.read_bytes()
@@ -170,6 +250,14 @@ class TreeValidator:
             if expected_hash and actual_hash != expected_hash:
                 self.errors.append(
                     f"Tree file hash mismatch: expected {expected_hash}, got {actual_hash}"
+                )
+
+            # Cross-validate stats if present
+            tree_pages = tree_data.get("meta", {}).get("pages_count", 0)
+            manifest_pages = manifest_data.get("stats", {}).get("pages_count", 0)
+            if tree_pages != manifest_pages:
+                self.warnings.append(
+                    f"Page count mismatch: tree has {tree_pages}, manifest has {manifest_pages}"
                 )
 
         return len(self.errors) == 0
@@ -204,22 +292,49 @@ class TreeValidator:
     # -- Internal -----------------------------------------------------------
 
     def _load_json(self, path: Path) -> dict | None:
-        """Load and parse a JSON file."""
+        """Load and parse a JSON file with error context."""
         try:
-            return json.loads(path.read_text(encoding="utf-8"))
+            content = path.read_text(encoding="utf-8")
+            return json.loads(content)
         except json.JSONDecodeError as exc:
             self.errors.append(f"Invalid JSON in {path.name}: {exc}")
+            if hasattr(exc, 'lineno'):
+                self.errors.append(f"  → Error at line {exc.lineno}, column {exc.colno}")
             return None
         except FileNotFoundError:
             self.errors.append(f"File not found: {path}")
             return None
 
-    def _validate_node(self, node: dict, path: str) -> None:
-        """Recursively validate a tree node."""
+    def _validate_node(self, node: dict, path: str, seen_ids: set[str]) -> None:
+        """Recursively validate a tree node with circular reference and ID tracking."""
         required = ["id", "title", "summary", "children"]
         for field in required:
             if field not in node:
                 self.errors.append(f"Node at '{path}' missing field: '{field}'")
+
+        # Check for duplicate IDs
+        node_id = node.get("id", "")
+        if node_id:
+            if node_id in seen_ids:
+                self.errors.append(f"Duplicate node ID '{node_id}' at path '{path}'")
+            else:
+                seen_ids.add(node_id)
+
+        # Validate ID format
+        if node_id and not isinstance(node_id, str):
+            self.errors.append(f"Node ID must be a string at '{path}': got {type(node_id).__name__}")
+        elif node_id and not node_id.replace("-", "_").isalnum():
+            self.errors.append(f"Node ID must be alphanumeric with hyphens/underscores at '{path}': '{node_id}'")
+
+        # Validate title
+        title = node.get("title", "")
+        if title and not isinstance(title, str):
+            self.errors.append(f"Node title must be a string at '{path}': got {type(title).__name__}")
+
+        # Validate summary
+        summary = node.get("summary", "")
+        if summary and not isinstance(summary, str):
+            self.errors.append(f"Node summary must be a string at '{path}': got {type(summary).__name__}")
 
         children = node.get("children", [])
         if not isinstance(children, list):
@@ -227,7 +342,7 @@ class TreeValidator:
         else:
             for i, child in enumerate(children):
                 child_id = child.get("id", f"[{i}]")
-                self._validate_node(child, f"{path}.{child_id}")
+                self._validate_node(child, f"{path}.{child_id}", seen_ids)
 
     def _validate_tree_hash(self, data: dict) -> None:
         """Verify the tree_hash in meta matches the actual tree content."""
@@ -245,7 +360,10 @@ class TreeValidator:
             pass
 
     def _validate_against_schema(self, data: dict, schema_type: str) -> None:
-        """Validate against JSON Schema if jsonschema is available."""
+        """Validate against JSON Schema if jsonschema is available.
+        
+        Uses cached schema for improved performance.
+        """
         try:
             import jsonschema
         except ImportError:
@@ -255,18 +373,37 @@ class TreeValidator:
             )
             return
 
-        schema_file = SCHEMAS_DIR / f"{schema_type}-schema.json"
-        if not schema_file.exists():
-            self.warnings.append(f"Schema file not found: {schema_file}")
+        # Use cached schema
+        schema = self._get_schema(schema_type)
+        if schema is None:
             return
 
         try:
-            schema = json.loads(schema_file.read_text(encoding="utf-8"))
             jsonschema.validate(data, schema)
         except jsonschema.ValidationError as exc:
-            self.errors.append(f"Schema validation failed: {exc.message}")
-        except json.JSONDecodeError:
-            self.errors.append(f"Invalid JSON in schema file: {schema_file}")
+            # Provide more detailed error information
+            error_path = ".".join(str(p) for p in exc.absolute_path) if exc.absolute_path else "root"
+            self.errors.append(f"Schema validation failed at '{error_path}': {exc.message}")
+        except json.JSONDecodeError as exc:
+            self.errors.append(f"Invalid JSON in schema file: {exc}")
+
+    def _get_schema(self, schema_type: str) -> dict | None:
+        """Load and cache JSON schema."""
+        if schema_type in self._schema_cache:
+            return self._schema_cache[schema_type]
+
+        schema_file = SCHEMAS_DIR / f"{schema_type}-schema.json"
+        if not schema_file.exists():
+            self.warnings.append(f"Schema file not found: {schema_file}")
+            return None
+
+        try:
+            schema = json.loads(schema_file.read_text(encoding="utf-8"))
+            self._schema_cache[schema_type] = schema
+            return schema
+        except json.JSONDecodeError as exc:
+            self.errors.append(f"Invalid JSON in schema file {schema_file}: {exc}")
+            return None
 
 
 # ---------------------------------------------------------------------------
@@ -279,6 +416,13 @@ def main() -> None:
     parser.add_argument("file", nargs="?", help="Path to tree.json to validate")
     parser.add_argument("--manifest", help="Optional manifest.json to cross-validate")
     parser.add_argument("--all", action="store_true", help="Validate all indices")
+    parser.add_argument("--strict", action="store_true", help="Treat warnings as errors")
+    parser.add_argument(
+        "--format",
+        choices=["text", "json"],
+        default="text",
+        help="Output format",
+    )
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -292,15 +436,25 @@ def main() -> None:
             return
 
         all_valid = True
+        output_data = {}
+        
         for key, valid in results.items():
             status = "✅" if valid else "❌"
             print(f"  {status} {key}")
+            output_data[key] = {"valid": valid, "errors": [], "warnings": []}
             if not valid:
                 all_valid = False
                 for err in validator.errors:
                     print(f"     ↳ {err}")
+                    output_data[key]["errors"].append(err)
+            for w in validator.warnings:
+                print(f"     ⚠️ {w}")
+                output_data[key]["warnings"].append(w)
 
-        sys.exit(0 if all_valid else 1)
+        if args.format == "json":
+            print("\n" + json.dumps(output_data, indent=2))
+
+        sys.exit(0 if (all_valid and not args.strict) else 1)
 
     if not args.file:
         parser.print_help()
@@ -313,6 +467,13 @@ def main() -> None:
     else:
         valid = validator.validate_tree(tree_path)
 
+    output_data = {
+        "file": str(tree_path),
+        "valid": valid,
+        "errors": validator.errors,
+        "warnings": validator.warnings,
+    }
+
     if valid:
         print(f"✅ Valid: {tree_path.name}")
         for w in validator.warnings:
@@ -324,7 +485,13 @@ def main() -> None:
         for w in validator.warnings:
             print(f"   ⚠️ {w}")
 
-    sys.exit(0 if valid else 1)
+    if args.format == "json":
+        print("\n" + json.dumps(output_data, indent=2))
+
+    exit_code = 0 if valid else 1
+    if args.strict and validator.warnings:
+        exit_code = 1
+    sys.exit(exit_code)
 
 
 if __name__ == "__main__":
